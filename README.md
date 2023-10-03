@@ -1,6 +1,6 @@
 ```
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ```
@@ -8,5 +8,5 @@ open http://localhost:8788
 ```
 
 ```
-npm run deploy
+pnpm deploy
 ```
