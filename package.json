@@ -8,13 +8,13 @@
 		"**/*": "prettier --write --ignore-unknown"
 	},
 	"dependencies": {
-		"hono": "^3.7.2"
+		"hono": "3.7.2"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20230914.0",
-		"husky": "^8.0.3",
-		"lint-staged": "^14.0.1",
+		"@cloudflare/workers-types": "4.20230914.0",
+		"husky": "8.0.3",
+		"lint-staged": "14.0.1",
 		"prettier": "3.0.3",
-		"wrangler": "^3.9.0"
+		"wrangler": "3.9.0"
 	}
 }
