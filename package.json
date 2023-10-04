@@ -7,6 +7,10 @@
 	"lint-staged": {
 		"**/*": "prettier --write --ignore-unknown"
 	},
+	"volta": {
+		"pnpm": "8.8.0",
+		"node": "18.17.1"
+	},
 	"dependencies": {
 		"hono": "3.7.2"
 	},
