@@ -4,8 +4,20 @@
 		"module": "ESNext",
 		"moduleResolution": "node",
 		"esModuleInterop": true,
-		"strict": true,
 		"lib": ["ESNext"],
-		"types": ["@cloudflare/workers-types"]
+		"types": ["@cloudflare/workers-types"],
+		"jsx": "react-jsx",
+		"jsxImportSource": "hono/jsx",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"allowJs": false,
+		"baseUrl": "."
 	}
 }

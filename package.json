@@ -1,7 +1,16 @@
 {
+	"old-scripts": {
+		"dev": "wrangler dev --compatibility-date=2023-01-01 src/index.ts",
+		"deploy": "wrangler deploy --minify src/index.ts",
+		"prepare": "husky install"
+	},
 	"scripts": {
-		"dev": "wrangler pages dev --compatibility-date=2023-01-01 ./pages",
-		"deploy": "wrangler pages deploy ./pages",
+		"dev": "run-p dev:*",
+		"dev:wrangler": "wrangler pages dev ./public --compatibility-date=2023-01-01",
+		"dev:esbuild": "esbuild --bundle src/index.tsx --format=esm  --watch --outfile=public/_worker.js",
+		"build": "run-p build:*",
+		"build:hono": "esbuild _worker.ts --bundle --minify --target=esnext --format=esm --outfile=public/_worker.js",
+		"deploy": "wrangler pages deploy public",
 		"prepare": "husky install"
 	},
 	"lint-staged": {
@@ -16,9 +25,11 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20230914.0",
+		"esbuild": "0.19.4",
 		"husky": "8.0.3",
 		"lint-staged": "14.0.1",
+		"npm-run-all": "4.1.5",
 		"prettier": "3.0.3",
-		"wrangler": "3.9.0"
+		"wrangler": "3.10.1"
 	}
 }

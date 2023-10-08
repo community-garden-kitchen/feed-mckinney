@@ -1,0 +1,30 @@
+.underline {
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+	padding-bottom: 1rem;
+}
+
+li li {
+	padding-bottom: 0;
+}
+
+ul.secondary {
+	margin-top: 2rem;
+	padding-left: 5rem;
+}
+
+summary {
+	font-weight: 600;
+	margin-left: -18px;
+}
+
+.name {
+	font-weight: 700;
+}
+
+.bold {
+	font-weight: 600;
+}
