@@ -28,3 +28,13 @@ summary {
 .bold {
 	font-weight: 600;
 }
+
+ul.subsection {
+	background-color: #eee;
+	padding: 1rem 1rem 1rem 2rem;
+	margin-left: 0.5rem;
+}
+
+ul.subsection > li {
+	margin-top: 1rem;
+}
