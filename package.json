@@ -9,7 +9,7 @@
 		"dev:wrangler": "wrangler pages dev ./public --compatibility-date=2023-01-01",
 		"dev:esbuild": "esbuild --bundle src/index.tsx --format=esm  --watch --outfile=public/_worker.js",
 		"build": "run-p build:*",
-		"build:hono": "esbuild _worker.ts --bundle --minify --target=esnext --format=esm --outfile=public/_worker.js",
+		"build:hono": "esbuild src/index.tsx --bundle --minify --target=esnext --format=esm --outfile=public/_worker.js",
 		"deploy": "wrangler pages deploy public",
 		"prepare": "husky install"
 	},
