@@ -3,44 +3,44 @@ import type { FC } from "hono/jsx";
 import { Layout } from "@/components/Layout";
 import { HomeLoaderData } from "@/pages/Home.route";
 import { ResourceItem } from "@/components/ResourceItem";
+import translations from "@/data/translations";
 
-type HomeView = {
+type HomeViewProps = {
 	loaderData: HomeLoaderData;
 };
 
-export const HomeView: FC<HomeView> = ({ loaderData }) => {
-	const { resources } = loaderData;
-	const description =
-		"Food pantries and other resources available to citizens of McKinney, Texas.";
+export const HomeView: FC<HomeViewProps> = ({ loaderData }) => {
+	const { language, resources } = loaderData;
 
 	return (
-		<Layout title="Feed McKinney - Texas" description={description}>
+		<Layout
+			title="Feed McKinney - Texas"
+			description={translations.description[language]}
+		>
 			<header class="container">
 				<hgroup>
-					<h1>Feed McKinney</h1>
-					<h2>
-						Helping you find the best resources in McKinney and Collin County,
-						Texas to help provide for your family.
-					</h2>
+					<h1>
+						{translations.feedMckinney["en"]}{" "}
+						{language !== "en"
+							? `(${translations.feedMckinney[language]})`
+							: null}
+					</h1>
+					<h2>{translations.mission[language]}</h2>
 				</hgroup>
 			</header>
 
 			<main class="container">
 				<ul>
 					{resources.map((resource) => (
-						<ResourceItem resource={resource} language="en" />
+						<ResourceItem resource={resource} language={language} />
 					))}
 				</ul>
 			</main>
 
 			<footer class="container">
+				<p>{translations.siteMaintainenance[language]}</p>
 				<p>
-					Website maintained by Justin Noel in cooperation with the Community
-					Garden Kitchen.
-				</p>
-				<p>
-					To add your organization to this site or if corrections are needed for
-					your organization, please send additions or corrections to
+					{translations.updatesText[language]}
 					<a href="mailto:info@feedmckinney.org"> info@feedmckinney.org</a>.
 				</p>
 			</footer>

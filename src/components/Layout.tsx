@@ -8,8 +8,6 @@ type LayoutProps = {
 };
 
 export const Layout: FC<LayoutProps> = ({ children, description, title }) => {
-	console.log("Layout children", children);
-
 	return html`<!doctype html>
 		<html
 			lang="en"

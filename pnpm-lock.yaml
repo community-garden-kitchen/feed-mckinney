@@ -13,6 +13,12 @@ devDependencies:
   '@cloudflare/workers-types':
     specifier: 4.20230914.0
     version: 4.20230914.0
+  '@types/accept-language-parser':
+    specifier: ^1.5.4
+    version: 1.5.4
+  accept-language-parser:
+    specifier: 1.5.0
+    version: 1.5.0
   esbuild:
     specifier: 0.19.4
     version: 0.19.4
@@ -506,6 +512,14 @@ packages:
   /@fastify/busboy@2.0.0:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
+    dev: true
+
+  /@types/accept-language-parser@1.5.4:
+    resolution: {integrity: sha512-H2I6BbxCuLreKHEZNhi20cYs2IvVr8blDDofxhnpZAWi3rOVhUPzgUC+gU0tYDwijqOqvu1GGOEvQcXi7QrtVQ==}
+    dev: true
+
+  /accept-language-parser@1.5.0:
+    resolution: {integrity: sha512-QhyTbMLYo0BBGg1aWbeMG4ekWtds/31BrEU+DONOg/7ax23vxpL03Pb7/zBmha2v7vdD3AyzZVWBVGEZxKOXWw==}
     dev: true
 
   /acorn-walk@8.2.0:

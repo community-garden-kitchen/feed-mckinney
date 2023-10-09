@@ -25,6 +25,8 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20230914.0",
+		"@types/accept-language-parser": "^1.5.4",
+		"accept-language-parser": "1.5.0",
 		"esbuild": "0.19.4",
 		"husky": "8.0.3",
 		"lint-staged": "14.0.1",
