@@ -58,7 +58,7 @@ export const ResourceItem: FC<ResourceProps> = ({
 			{resource.image ? <div>{resource.image}</div> : null}
 
 			{resource.additionalResources ? (
-				<ul class="secondary">
+				<ul class="subsection secondary">
 					<summary class="secondary">
 						Additional resources at {resource.name[language]}:
 					</summary>
