@@ -1,16 +1,24 @@
 import { html } from "hono/html";
 import type { FC } from "hono/jsx";
 
+import { Language } from "@/pages/Home.route";
+
 type LayoutProps = {
 	children?: unknown;
 	description?: string;
+	language: Language;
 	title: string;
 };
 
-export const Layout: FC<LayoutProps> = ({ children, description, title }) => {
+export const Layout: FC<LayoutProps> = ({
+	children,
+	description,
+	language,
+	title,
+}) => {
 	return html`<!doctype html>
 		<html
-			lang="en"
+			lang="${language}"
 			class="h-full scroll-smooth antialiased [font-feature-settings:'ss01']"
 		>
 			<head>

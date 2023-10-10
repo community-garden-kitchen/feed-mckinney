@@ -11,20 +11,31 @@ type HomeViewProps = {
 
 export const HomeView: FC<HomeViewProps> = ({ loaderData }) => {
 	const { language, resources } = loaderData;
+	const switchToLanguage = language === "en" ? "es" : "en";
 
 	return (
 		<Layout
 			title="Feed McKinney - Texas"
 			description={translations.description[language]}
+			language={language}
 		>
 			<header class="container">
 				<hgroup>
-					<h1>
-						{translations.feedMckinney["en"]}{" "}
-						{language !== "en"
-							? `(${translations.feedMckinney[language]})`
-							: null}
-					</h1>
+					<div class="title-language">
+						<a
+							href={`?lang=${switchToLanguage}`}
+							lang={`${switchToLanguage}`}
+							hreflang={`${switchToLanguage}`}
+						>
+							{translations.languageVersion[switchToLanguage]}
+						</a>
+						<h1>
+							{translations.feedMckinney["en"]}{" "}
+							{language !== "en"
+								? `(${translations.feedMckinney[language]})`
+								: null}
+						</h1>
+					</div>
 					<h2>{translations.mission[language]}</h2>
 				</hgroup>
 			</header>

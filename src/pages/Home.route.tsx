@@ -20,9 +20,10 @@ export const HomeRoute = async ({ c }: HomeRoute) => {
 	const languages = parse(c.req.headers.get("Accept-Language"));
 	let language = (languages?.[0]?.code as Language) || "en";
 	language = acceptedLanguages.includes(language) ? language : "en";
+	const { lang: preferredLanguage }: { lang: Language } = c.req.query();
 
 	const loaderData = {
-		language: language,
+		language: preferredLanguage || language,
 		resources: resources,
 	};
 

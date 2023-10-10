@@ -38,3 +38,12 @@ ul.subsection {
 ul.subsection > li {
 	margin-top: 1rem;
 }
+
+.title-language {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-content: center;
+	align-items: top;
+	line-height: 2rem;
+}
