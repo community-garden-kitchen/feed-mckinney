@@ -15,12 +15,12 @@ export type Resource = {
 		en: string;
 		es: string;
 	};
-	phone: string;
+	phone?: string;
 	services: {
 		en: string;
 		es: string;
 	};
-	website: string;
+	website?: string;
 };
 
 const resources: Resource[] = [
