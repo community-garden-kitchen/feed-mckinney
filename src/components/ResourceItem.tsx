@@ -13,10 +13,15 @@ export const ResourceItem: FC<ResourceProps> = ({
 	language = "en",
 	resource,
 }) => {
+	const addressUrl = `http://maps.apple.com/?daddr=${resource.address}`;
 	return (
 		<li>
 			<div class="underline name">{resource.name[language]}</div>
-			<div>{resource.address}</div>
+			<div>
+				<a href={addressUrl} class="underline">
+					{resource.address}
+				</a>
+			</div>
 
 			{resource.phone ? <div>{resource.phone}</div> : null}
 
