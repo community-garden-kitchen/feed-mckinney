@@ -11,12 +11,12 @@ export type Resource = {
 		en: string;
 		es: string;
 	};
-	notes: {
+	notes?: {
 		en: string;
 		es: string;
 	};
 	phone?: string;
-	services: {
+	services?: {
 		en: string;
 		es: string;
 	};
@@ -45,11 +45,6 @@ const resources: Resource[] = [
 			en: "Community Garden Kitchen",
 			es: "Cocina con Jardín Comunitario",
 		},
-		notes: {
-			en: "",
-			es: "",
-		},
-		phone: "",
 		services: {
 			en: "Free restaurant style meals for your whole family",
 			es: "Comidas estilo restaurante gratuitas para toda tu familia.",
@@ -77,15 +72,7 @@ const resources: Resource[] = [
 			en: "Renovación",
 			es: "Renovación",
 		},
-		notes: {
-			en: "",
-			es: "",
-		},
 		phone: "(214) 944-7260",
-		services: {
-			en: "",
-			es: "",
-		},
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
 	},
 	{
@@ -110,10 +97,6 @@ const resources: Resource[] = [
 		name: {
 			en: "iRise DFW",
 			es: "iRise DFW",
-		},
-		notes: {
-			en: "",
-			es: "",
 		},
 		phone: "(214) 548-4447",
 		services: {
@@ -209,10 +192,6 @@ const resources: Resource[] = [
 					en: "Southard Middle School",
 					es: "Southard Middle School",
 				},
-				notes: {
-					en: "",
-					es: "",
-				},
 				services: {
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
@@ -237,10 +216,6 @@ const resources: Resource[] = [
 					en: "McKinney First Baptist Church",
 					es: "McKinney First Baptist Church",
 				},
-				notes: {
-					en: "",
-					es: "",
-				},
 				services: {
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
@@ -257,10 +232,6 @@ const resources: Resource[] = [
 					en: "First Baptist Church Weston",
 					es: "First Baptist Church Weston",
 				},
-				notes: {
-					en: "",
-					es: "",
-				},
 				services: {
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
@@ -276,10 +247,6 @@ const resources: Resource[] = [
 				name: {
 					en: "Bethel Baptist Church Celina",
 					es: "Bethel Baptist Church Celina",
-				},
-				notes: {
-					en: "",
-					es: "",
 				},
 				services: {
 					en: "Mobile food distribution",
@@ -304,10 +271,6 @@ const resources: Resource[] = [
 				name: {
 					en: "First Christian Church McKinney",
 					es: "First Christian Church McKinney",
-				},
-				notes: {
-					en: "",
-					es: "",
 				},
 				services: {
 					en: "Mobile food distribution",
@@ -337,10 +300,6 @@ const resources: Resource[] = [
 					en: "First United Methodist Church",
 					es: "First United Methodist Church",
 				},
-				notes: {
-					en: "",
-					es: "",
-				},
 				services: {
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
@@ -356,10 +315,6 @@ const resources: Resource[] = [
 				name: {
 					en: "St. Andrews Episcopal Church",
 					es: "St. Andrews Episcopal Church",
-				},
-				notes: {
-					en: "",
-					es: "",
 				},
 				services: {
 					en: "Mobile food distribution",
@@ -379,15 +334,10 @@ const resources: Resource[] = [
 			en: "Roadside Church",
 			es: "Roadside Church",
 		},
-		notes: {
-			en: "",
-			es: "",
-		},
 		services: {
 			en: "Hot meals",
 			es: "Hot meals",
 		},
-		website: "",
 	},
 	{
 		address: "600 Wilson Creek Pkwy, McKinney, 75069",
@@ -400,16 +350,10 @@ const resources: Resource[] = [
 			en: "The Parks Church",
 			es: "The Parks Church",
 		},
-		notes: {
-			en: "",
-			es: "",
-		},
-		phone: "",
 		services: {
 			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
 			es: "Productos agrícolas, conservas, huevos y carnes que se ofrecen con una comida caliente.",
 		},
-		website: "",
 	},
 	{
 		address: "1711 Parker Road Wylie, 75098",
@@ -429,10 +373,6 @@ const resources: Resource[] = [
 		name: {
 			en: "Amazing Grace Food Pantry",
 			es: "Amazing Grace Food Pantry",
-		},
-		notes: {
-			en: "",
-			es: "",
 		},
 		phone: "(972) 292-7241",
 		services: {
