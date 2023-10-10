@@ -28,14 +28,14 @@ export const ResourceItem: FC<ResourceProps> = ({
 				</a>
 			) : null}
 
-			{resource.services[language] ? (
+			{resource?.services?.[language] ? (
 				<div>
 					<span class="bold">{translations.services[language]}: </span>
 					{resource.services[language]}
 				</div>
 			) : null}
 
-			{resource.notes[language] ? (
+			{resource?.notes?.[language] ? (
 				<div>
 					<span class="bold">{translations.notes[language]}: </span>
 					{resource.notes[language]}
