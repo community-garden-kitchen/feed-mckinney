@@ -6,6 +6,15 @@
 	--muted-color: hsl(205, 10%, 40%);
 }
 
+h2,
+h3 {
+	--font-size: 20px;
+	--font-weight: 600;
+	--color: rgb(65, 84, 98);
+	--margin-bottom: 1rem;
+	--typography-spacing-vertical: .rem;
+}
+
 .underline {
 	text-decoration: underline;
 }
@@ -19,14 +28,9 @@ li li {
 	padding-bottom: 0;
 }
 
-ul.secondary {
-	margin-top: 2rem;
-	padding-left: 5rem;
-}
-
-summary {
-	font-weight: 600;
-	margin-left: -18px;
+h3.secondary-list {
+	margin-bottom: 0;
+	font-size: var(--font-size);
 }
 
 .name {

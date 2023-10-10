@@ -16,7 +16,7 @@ export const ResourceItem: FC<ResourceProps> = ({
 	const addressUrl = `http://maps.apple.com/?daddr=${resource.address}`;
 	return (
 		<li>
-			<div class="underline name">{resource.name[language]}</div>
+			<h2 class="underline name">{resource.name[language]}</h2>
 			<div>
 				<a href={addressUrl} class="underline">
 					{resource.address}
@@ -53,9 +53,9 @@ export const ResourceItem: FC<ResourceProps> = ({
 				{resource.idRequired ? "Yes" : "No"}
 			</div>
 
+			<h3 class="secondary-list">{translations.hours[language]}:</h3>
 			{resource.hours[language] ? (
 				<ul>
-					<summary class="secondary">{translations.hours[language]}:</summary>
 					{resource.hours[language].map((hour) => (
 						<li>{hour}</li>
 					))}
@@ -63,15 +63,17 @@ export const ResourceItem: FC<ResourceProps> = ({
 			) : null}
 
 			{resource.additionalResources ? (
-				<ul class="subsection secondary">
-					<summary class="secondary">
+				<>
+					<h3 class="secondary-list">
 						{translations.additionalResources[language]}{" "}
 						{resource.name[language]}:
-					</summary>
-					{resource.additionalResources.map((resource) => (
-						<ResourceItem resource={resource} language={language} />
-					))}
-				</ul>
+					</h3>
+					<ul class="subsection secondary">
+						{resource.additionalResources.map((resource) => (
+							<ResourceItem resource={resource} language={language} />
+						))}
+					</ul>
+				</>
 			) : null}
 		</li>
 	);
