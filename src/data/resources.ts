@@ -481,6 +481,185 @@ const resources: Resource[] = [
 		},
 		website: "https://babybootiesdiaperbank.org/get-help/",
 	},
+	{
+		address: "Varies by location",
+		hours: {
+			en: ["Second Saturday Mornings"],
+			es: ["Segundo sábado por la mañana"],
+		},
+		idRequired: false,
+		name: {
+			en: "McKinney Little Free Pantry",
+			es: "Pequeña despensa gratuita de McKinney",
+		},
+		services: {
+			en: "Provides provide non-perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day, 7 days a week with no rules or regulations as to who receives the assistance.",
+			es: "Proporciona alimentos no perecederos, artículos de tocador y artículos de primera necesidad con respeto, amor y dignidad tanto para los compradores como para los donantes. Esta asistencia está disponible las 24 horas del día, los 7 días de la semana, sin reglas ni regulaciones sobre quién recibe la asistencia.",
+		},
+		website: "https://www.mckinneylfp.org",
+		additionalResources: [
+			{
+				address: "110 E Davis St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "McKinney Little Free Pantry",
+					es: "Pequeña despensa gratuita de McKinney",
+				},
+			},
+			{
+				address: "502 N Kentucky St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "The Art House",
+					es: "La Casa del Arte",
+				},
+			},
+			{
+				address: "513 Heard St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "Private Residence",
+					es: "Residencia Privada",
+				},
+			},
+			{
+				address: "604 Rike St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "Renovacion Iglesia del Nazareno",
+					es: "Renovacion Iglesia del Nazareno",
+				},
+			},
+			{
+				address: "400 N. College St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "St Peter’s Episcopal Church Parking Lot",
+					es: "St Peter’s Episcopal Church Parking Lot",
+				},
+			},
+			{
+				address: "5871 Virginia Pkwy",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "Behind Trinity Presbyterian Church",
+					es: "Behind Trinity Presbyterian Church",
+				},
+			},
+			{
+				address: "614 Blue Ridge St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "Private Residence",
+					es: "Residencia Privada",
+				},
+			},
+			{
+				address: "404 Lincoln St",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "Holy Family Episcopal Church",
+					es: "Holy Family Episcopal Church",
+				},
+			},
+			{
+				address: "110 St. Gabriel Way",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "St. Gabriel the Archangel Church",
+					es: "St. Gabriel the Archangel Church",
+				},
+			},
+			{
+				address: "6400 McKinney Ranch Pkwy",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "St. Andrew’s Episcopal Church",
+					es: "St. Andrew’s Episcopal Church",
+				},
+			},
+			{
+				address: "2000 W White Ave",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "First Presbyterian Church",
+					es: "First Presbyterian Church",
+				},
+			},
+			{
+				address: "1811 Ridge Road",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "SE backside of Masonic Temple",
+					es: "SE backside of Masonic Temple",
+				},
+			},
+			{
+				address: "1827 W. Louisiana",
+				hours: {
+					en: ["All day, everyday"],
+					es: ["Todo el día todos los días"],
+				},
+				idRequired: false,
+				name: {
+					en: "The Shot Spot",
+					es: "The Shot Spot",
+				},
+				notes: {
+					en: "**Pet Pantry Only**",
+					es: "**Pet Pantry Only**",
+				},
+			},
+		],
+	},
 ];
 
 export default resources;
