@@ -24,7 +24,7 @@ const translations = {
 		es: "Versión en Español",
 	},
 	mission: {
-		en: "Helping you find the best resources in McKinney and Collin County, Texas to help provide for your family.",
+		en: "Helping you find the best resources in McKinney and Collin County, Texas to help provide for your family..",
 		es: "Ayudándolo a encontrar los mejores recursos en McKinney y el condado de Collin, Texas, para ayudar a mantener a su familia.",
 	},
 	notes: {
