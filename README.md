@@ -1,13 +1,15 @@
+# Feed McKinney Website
+
 Source code for the [Feed McKinney](https://feedmckinney.org) website.
 
 ## Development
 
-```
+```sh
 pnpm install
 pnpm dev
 ```
 
-```
+```sh
 open http://localhost:8788
 ```
 
