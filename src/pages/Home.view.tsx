@@ -49,7 +49,7 @@ export const HomeView: FC<HomeViewProps> = ({ loaderData }) => {
 			</main>
 
 			<footer class="container">
-				<p>{translations.siteMaintainenance[language]}</p>
+				<p>{translations.siteMaintenance[language]}</p>
 				<p>
 					{translations.updatesText[language]}
 					<a href="mailto:info@feedmckinney.org"> info@feedmckinney.org</a>.

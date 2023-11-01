@@ -35,7 +35,7 @@ const translations = {
 		en: "Services",
 		es: "Servicios",
 	},
-	siteMaintainenance: {
+	siteMaintenance: {
 		en: "Website maintained by Justin Noel in cooperation with the Community Garden Kitchen.",
 		es: "Sitio web mantenido por Justin Noel en cooperación con Community Garden Kitchen.",
 	},
