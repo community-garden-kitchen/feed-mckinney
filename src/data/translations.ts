@@ -1,11 +1,11 @@
 const translations = {
 	additionalResources: {
-		en: "Additional resources at",
-		es: "Recursos adicionales en",
+		en: "Additional resources available at",
+		es: "Recursos adicionales disponibles en",
 	},
 	feedMckinney: {
 		en: "Feed McKinney",
-		es: "Alimentar a McKinney",
+		es: "Alimenta a McKinney",
 	},
 	description: {
 		en: "Food pantries and other resources available to citizens of McKinney, Texas.",
@@ -17,15 +17,15 @@ const translations = {
 	},
 	idRequired: {
 		en: "ID Required",
-		es: "Identificación Requerida",
+		es: "Se requiere identificación",
 	},
 	languageVersion: {
-		en: "English Version",
-		es: "Versión en Español",
+		en: "English",
+		es: "Español",
 	},
 	mission: {
-		en: "Helping you find the best resources in McKinney and Collin County, Texas to help provide for your family.",
-		es: "Ayudándolo a encontrar los mejores recursos en McKinney y el condado de Collin, Texas, para ayudar a mantener a su familia.",
+		en: "Guiding you to the best resources in McKinney and Collin County, Texas to help you provide for your family.",
+		es: "Guiándolo a los mejores recursos en McKinney y Collin Condado, Texas para ayudarle a apoyar a la familia.",
 	},
 	notes: {
 		en: "Notes",
@@ -35,13 +35,13 @@ const translations = {
 		en: "Services",
 		es: "Servicios",
 	},
-	siteMaintainenance: {
+	siteMaintenance: {
 		en: "Website maintained by Justin Noel in cooperation with the Community Garden Kitchen.",
-		es: "Sitio web mantenido por Justin Noel en cooperación con Community Garden Kitchen.",
+		es: "Este sitio web está mantenido por Justin Noel en cooperación con la Cocina del Jardín Comunitario (Community Garden Kitchen).",
 	},
 	updatesText: {
-		en: "To add your organization to this site or if corrections are needed for your organization, please send additions or corrections to",
-		es: "Para agregar su organización a este sitio o si se necesitan correcciones para su organización, envíe adiciones o correcciones a",
+		en: "To request corrections or add your organization to this site, please email",
+		es: "Para pedir correcciones o agregar su organización a este sitio web, por favor envíe por correo electrónico a",
 	},
 } as const;
 

@@ -25,7 +25,7 @@ export type Resource = {
 
 const resources: Resource[] = [
 	{
-		address: "501 Howard Street McKinney, TX 75069",
+		address: "501 Howard Street, McKinney, TX 75069",
 		hours: {
 			en: [
 				"Monday 6:00 PM - 8:00 PM",
@@ -52,7 +52,7 @@ const resources: Resource[] = [
 		website: "https://communitygardenkitchen.org/",
 	},
 	{
-		address: "604 Rike Street McKinney, TX 75069",
+		address: "604 Rike Street, McKinney, TX 75069",
 		hours: {
 			en: [
 				"2nd Saturday 9:00 AM - 12:00 PM",
@@ -69,14 +69,14 @@ const resources: Resource[] = [
 		},
 		idRequired: false,
 		name: {
-			en: "Renovación",
-			es: "Renovación",
+      en: "Church of the Nazarene",
+      es: "Iglesia del Nazareno Renovación",
 		},
 		phone: "(214) 944-7260",
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
 	},
 	{
-		address: "901 N. McDonald, Mckinney, TX 75069",
+		address: "901 North McDonald Street, McKinney, TX 75069",
 		hours: {
 			en: [
 				"Monday 10:00 AM - 4:00 PM",
@@ -106,7 +106,7 @@ const resources: Resource[] = [
 		website: "https://www.irisedfw.org",
 	},
 	{
-		address: "600 Wilson Creek Pkwy, Mckinney 75069",
+		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
 		hours: {
 			en: [
 				"Monday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
@@ -123,7 +123,7 @@ const resources: Resource[] = [
 		},
 		idRequired: true,
 		name: {
-			en: "Salvation Army Collin County",
+			en: "The Salvation Army of McKinney",
 			es: "Ejército de Salvación Collin County",
 		},
 		notes: {
@@ -135,10 +135,10 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		website: "https://salvationarmyntx.org/north-texas/cure-hunger",
+		website: "https://salvationarmyntx.org/north-texas/mckinney",
 	},
 	{
-		address: "1601 N. Waddill, Suite 102, Mckinney 75069",
+		address: "1601 North Waddill Street, Suite 102, McKinney, TX 75069",
 		hours: {
 			en: [
 				"Tuesday 10:00 AM - 3:00 PM",
@@ -170,7 +170,7 @@ const resources: Resource[] = [
 		website: "https://www.communitylifeline.org/rent--utility-help.html",
 		additionalResources: [
 			{
-				address: "455 Monte Carlo Blvd., Princeton, TX 75407",
+				address: "455 Monte Carlo Boulevard, Princeton, TX 75407",
 				hours: {
 					en: [
 						"October 21, 2023 9:00 AM - 11:00 AM",
@@ -198,7 +198,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "401 Erwin, McKinney, TX 75069",
+				address: "401 West Erwin Avenue, McKinney, TX 75069",
 				hours: {
 					en: [
 						"October 21, 2023 9:00 AM - 11:00 AM",
@@ -222,14 +222,14 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "300 Main St in Weston, TX",
+				address: "300 Main Street, Weston, TX 75097",
 				hours: {
 					en: ["October 14, 2023 9:00 AM - 11:00 AM"],
 					es: ["Octubre 14, 2023 9:00 AM - 11:00 AM"],
 				},
 				idRequired: false,
 				name: {
-					en: "First Baptist Church Weston",
+					en: "First Baptist Church of Weston",
 					es: "First Baptist Church Weston",
 				},
 				services: {
@@ -238,14 +238,14 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "115 West St in Celina TX",
+				address: "115 West Street, Celina, TX 75009",
 				hours: {
 					en: ["November 11, 2023 9:00 AM - 11:00 AM"],
 					es: ["Noviembre 11, 2023 9:00 AM - 11:00 AM"],
 				},
 				idRequired: false,
 				name: {
-					en: "Bethel Baptist Church Celina",
+					en: "Bethel Baptist Church Celina (hosted at Calvary Chapel Church)",
 					es: "Bethel Baptist Church Celina",
 				},
 				services: {
@@ -254,7 +254,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "1800 West Hunt, McKinney, TX 75069",
+				address: "1800 West Hunt Street, McKinney, TX 75069",
 				hours: {
 					en: [
 						"October 7, 2023 9:00 AM - 10:30 AM",
@@ -278,7 +278,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "102 W. Lamar St, McKinney, TX 75069",
+				address: "102 West Lamar Street, McKinney, TX 75069",
 				hours: {
 					en: [
 						"October 14, 2023 9:30 AM - 10:30 AM",
@@ -306,15 +306,15 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "6400 McKinney Ranch Pkwy, McKinney, TX 75070",
+				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
 				hours: {
 					en: ["October 28, 2023 9:00 AM - 10:30 AM"],
 					es: ["Octubre 28, 2023 9:00 AM - 10:30 AM"],
 				},
 				idRequired: false,
 				name: {
-					en: "St. Andrews Episcopal Church",
-					es: "St. Andrews Episcopal Church",
+					en: "St. Andrew's Episcopal Church",
+					es: "St. Andrew's Episcopal Church",
 				},
 				services: {
 					en: "Mobile food distribution",
@@ -324,7 +324,7 @@ const resources: Resource[] = [
 		],
 	},
 	{
-		address: "107 E. Lamar St., McKinney, 75069",
+		address: "107 East Lamar Street, McKinney, TX 75069",
 		hours: {
 			en: ["Sunday 4:00 PM"],
 			es: ["Domingo 4:00 PM"],
@@ -340,7 +340,7 @@ const resources: Resource[] = [
 		},
 	},
 	{
-		address: "600 Wilson Creek Pkwy, McKinney, 75069",
+		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
 		hours: {
 			en: ["Sunday 11:45 AM - 1:00 PM"],
 			es: ["Domingo 11:45 AM - 1:00 PM"],
@@ -356,7 +356,7 @@ const resources: Resource[] = [
 		},
 	},
 	{
-		address: "1711 Parker Road Wylie, 75098",
+		address: "1711 Parker Road, Wylie, TX 75098",
 		hours: {
 			en: [
 				"Tuesday 10:00 AM - 2:00 PM",
@@ -379,10 +379,10 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		website: "http://www.AmazingGracePantry.org",
+		website: "http://www.amazinggracepantry.org",
 	},
 	{
-		address: "652 N. Redbud Blvd, Mckinney, 75069",
+		address: "411 Paula Road, McKinney, TX 75069",
 		hours: {
 			en: [
 				"Tuesday 2:00 PM - 4:00 PM",
@@ -395,7 +395,7 @@ const resources: Resource[] = [
 		},
 		idRequired: true,
 		name: {
-			en: "St. Vincent de Paul",
+			en: "St. Vincent de Paul (hosted at St. Michael the Archangel)",
 			es: "St. Vincent de Paul",
 		},
 		notes: {
@@ -410,7 +410,7 @@ const resources: Resource[] = [
 		website: "https://stmichaelmckinney.org/st-vincent-de-paul-",
 	},
 	{
-		address: "3107 Hwy 5 (Mckinney St), Melissae, 75454",
+		address: "3107 Highway 5 (McKinney Street), Melissa, TX 75454",
 		email: "Dena@project.org",
 		hours: {
 			en: ["Monday 5:00 PM - 6:30 PM", "Thursday 5:00 PM - 6:30 PM"],
@@ -433,7 +433,7 @@ const resources: Resource[] = [
 		website: "https://25project.org",
 	},
 	{
-		address: "801 E. Main St, Allen, 75002",
+		address: "801 East Main Street, Allen, TX 75002",
 		hours: {
 			en: [
 				"Tuesday 9:00 AM - 11:00 AM, 5:00 PM - 7:00 PM",
@@ -444,14 +444,14 @@ const resources: Resource[] = [
 		},
 		idRequired: true,
 		name: {
-			en: "Allen Community Outreach",
-			es: "Allen Community Outreach",
+			en: "All Community Outreach",
+			es: "All Community Outreach",
 		},
 		notes: {
 			en: "Proof of Collin County residency is required. For new clients, a QR code will be emailed after completion of a brief application in the drive-thru line. The QR code is required for future visits. Sometimes the need for food is NOW. For those extreme situations ACO’s 801 E. Main Street location stocks a limited number of basic food supplies in our main office. If you are in need of emergency food, call ACO’s office at 972-727-9131.",
 			es: "Se requiere prueba de residencia en el condado de Collin. Para los nuevos clientes, se les enviará un código QR por correo electrónico después de completar una breve solicitud en la fila del autoservicio. El código QR es necesario para futuras visitas. A veces la necesidad de comida es AHORA. Para esas situaciones extremas, la ubicación de ACO en 801 E. Main Street almacena una cantidad limitada de suministros de alimentos básicos en nuestra oficina principal. Si necesita alimentos de emergencia, llame a la oficina de ACO al 972-727-9131.",
 		},
-		phone: "(972)-727-9131",
+		phone: "(972) 727-9131",
 		services: {
 			en: "Food pantry and financial assistance",
 			es: "Despensa de alimentos y asistencia financiera",
@@ -459,7 +459,7 @@ const resources: Resource[] = [
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
-		address: "Hope Fellowship Church, 1702 W University Dr, McKinney, 75069",
+		address: "Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
 		email: "hhkhut33@gmail.com",
 		hours: {
 			en: ["Second Saturday Mornings"],
@@ -499,31 +499,31 @@ const resources: Resource[] = [
 		website: "https://www.mckinneylfp.org",
 		additionalResources: [
 			{
-				address: "110 E Davis St",
+				address: "110 Davis Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
 				name: {
-					en: "McKinney Little Free Pantry",
+					en: "McKinney Little Free Pantry (located on Tennessee Street side)",
 					es: "Pequeña despensa gratuita de McKinney",
 				},
 			},
 			{
-				address: "502 N Kentucky St",
+				address: "502 North Kentucky Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
 				name: {
-					en: "The Art House",
+					en: "McKinney Art House",
 					es: "La Casa del Arte",
 				},
 			},
 			{
-				address: "513 Heard St",
+				address: "513 West Heard Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -535,19 +535,19 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "604 Rike St",
+				address: "604 Rike Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
 				name: {
-					en: "Renovacion Iglesia del Nazareno",
-					es: "Renovacion Iglesia del Nazareno",
+					en: "Church of the Nazarene",
+					es: "Iglesia del Nazareno Renovación",
 				},
 			},
 			{
-				address: "400 N. College St",
+				address: "400 North College Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -559,7 +559,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "5871 Virginia Pkwy",
+				address: "5871 Virginia Parkway, McKinney, TX 75071",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -571,7 +571,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "614 Blue Ridge St",
+				address: "614 Blue Ridge Street, McKinney, TX 75072",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -583,7 +583,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "404 Lincoln St",
+				address: "404 Lincoln Street, Plano, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -591,11 +591,11 @@ const resources: Resource[] = [
 				idRequired: false,
 				name: {
 					en: "Holy Family Episcopal Church",
-					es: "Holy Family Episcopal Church",
+					es: "Iglesia Episcopal de la Santa Natividad",
 				},
 			},
 			{
-				address: "110 St. Gabriel Way",
+				address: "110 St. Gabriel Way, McKinney, TX 75071",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -607,7 +607,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "6400 McKinney Ranch Pkwy",
+				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -619,7 +619,7 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "2000 W White Ave",
+				address: "2000 West White Avenue, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
@@ -631,19 +631,19 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "1811 Ridge Road",
+				address: "1811 Ridge Road, McKinney, TX 75071",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
 				name: {
-					en: "SE backside of Masonic Temple",
+					en: "Southeast backside of Masonic Temple",
 					es: "SE backside of Masonic Temple",
 				},
 			},
 			{
-				address: "1827 W. Louisiana",
+				address: "1827 West Louisiana Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
