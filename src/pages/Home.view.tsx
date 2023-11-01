@@ -30,9 +30,9 @@ export const HomeView: FC<HomeViewProps> = ({ loaderData }) => {
 							{translations.languageVersion[switchToLanguage]}
 						</a>
 						<h1>
-							{translations.feedMckinney["en"]}{" "}
+							{translations.feedMckinney[language]}{" "}
 							{language !== "en"
-								? `(${translations.feedMckinney[language]})`
+								? `(${translations.feedMckinney["en"]})`
 								: null}
 						</h1>
 					</div>
