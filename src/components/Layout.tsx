@@ -35,17 +35,6 @@ export const Layout: FC<LayoutProps> = ({
 			</head>
 			<body>
 				${children}
-				<script
-					async
-					defer
-					src="https://visitors.feedmckinney.org/latest.js"
-				></script>
-				<noscript
-					><img
-						src="https://visitors.feedmckinney.org/noscript.gif"
-						alt=""
-						referrerpolicy="no-referrer-when-downgrade"
-				/></noscript>
 			</body>
 		</html>`;
 };
