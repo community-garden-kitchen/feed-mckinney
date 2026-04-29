@@ -69,8 +69,8 @@ const resources: Resource[] = [
 		},
 		idRequired: false,
 		name: {
-      en: "Church of the Nazarene",
-      es: "Iglesia del Nazareno Renovación",
+			en: "Church of the Nazarene",
+			es: "Iglesia del Nazareno Renovación",
 		},
 		phone: "(214) 944-7260",
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
@@ -459,7 +459,8 @@ const resources: Resource[] = [
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
-		address: "Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
+		address:
+			"Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
 		email: "hhkhut33@gmail.com",
 		hours: {
 			en: ["Second Saturday Mornings"],
