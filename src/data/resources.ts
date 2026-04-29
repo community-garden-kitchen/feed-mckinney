@@ -111,13 +111,11 @@ const resources: Resource[] = [
 			en: [
 				"Monday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Wednesday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Thursday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Friday 9:00 AM - 12:00 PM",
 			],
 			es: [
 				"Lunes 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Miércoles 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Jueves 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Viernes 9:00 AM - 12:00 PM",
 			],
 		},
