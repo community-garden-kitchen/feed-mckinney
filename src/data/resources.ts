@@ -69,41 +69,11 @@ const resources: Resource[] = [
 		},
 		idRequired: false,
 		name: {
-      en: "Church of the Nazarene",
-      es: "Iglesia del Nazareno Renovación",
+			en: "Church of the Nazarene",
+			es: "Iglesia del Nazareno Renovación",
 		},
 		phone: "(214) 944-7260",
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
-	},
-	{
-		address: "901 North McDonald Street, McKinney, TX 75069",
-		hours: {
-			en: [
-				"Monday 10:00 AM - 4:00 PM",
-				"Tuesday 10:00 AM - 4:00 PM",
-				"Wednesday 10:00 AM - 4:00 PM",
-				"Thursday 10:00 AM - 4:00 PM",
-				"Friday 10:00 AM - 4:00 PM",
-			],
-			es: [
-				"Lunes 10:00 AM - 4:00 PM",
-				"Martes 10:00 AM - 4:00 PM",
-				"Miércoles 10:00 AM - 4:00 PM",
-				"Jueves 10:00 AM - 4:00 PM",
-				"Viernes 10:00 AM - 4:00 PM",
-			],
-		},
-		idRequired: false,
-		name: {
-			en: "iRise DFW",
-			es: "iRise DFW",
-		},
-		phone: "(214) 548-4447",
-		services: {
-			en: "Food Pantry and support for single moms",
-			es: "Despensa de alimentos y apoyo para madres solteras",
-		},
-		website: "https://www.irisedfw.org",
 	},
 	{
 		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
@@ -111,13 +81,11 @@ const resources: Resource[] = [
 			en: [
 				"Monday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Wednesday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Thursday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Friday 9:00 AM - 12:00 PM",
 			],
 			es: [
 				"Lunes 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Miércoles 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Jueves 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
 				"Viernes 9:00 AM - 12:00 PM",
 			],
 		},
@@ -141,75 +109,39 @@ const resources: Resource[] = [
 		address: "1601 North Waddill Street, Suite 102, McKinney, TX 75069",
 		hours: {
 			en: [
-				"Tuesday 10:00 AM - 3:00 PM",
-				"Wednesday 10:00 AM - 3:00 PM",
-				"Thursday 10:00 AM - 3:00 PM",
-				"Friday 10:00 AM - 3:00 PM",
+				"Tuesday 10:00 AM - 2:45 PM",
+				"Wednesday 10:00 AM - 2:45 PM",
+				"Thursday 10:00 AM - 2:45 PM",
+				"Friday 9:00 AM - 1:45 PM",
 			],
 			es: [
-				"Martes 10:00 AM - 3:00 PM",
-				"Miércoles 10:00 AM - 3:00 PM",
-				"Jueves 10:00 AM - 3:00 PM",
-				"Viernes 10:00 AM - 3:00 PM",
+				"Martes 10:00 AM - 2:45 PM",
+				"Miércoles 10:00 AM - 2:45 PM",
+				"Jueves 10:00 AM - 2:45 PM",
+				"Viernes 9:00 AM - 1:45 PM",
 			],
 		},
 		idRequired: true,
 		name: {
-			en: "Community Lifeline Center",
-			es: "Centro Comunitario de Salvavidas",
+			en: "The Samaritan Inn Food Pantry",
+			es: "The Samaritan Inn Food Pantry",
 		},
 		notes: {
 			en: "Complete online application for financial assistance if qualified.",
 			es: "Complete la solicitud en línea para asistencia financiera si califica.",
 		},
-		phone: "(972) 542-0020",
+		phone: "(972) 547-5567",
 		services: {
-			en: "Food pantry. Financial assistance available to CoServ, TXU, McKinney Water, or Atmos customers.",
-			es: "Despensa de alimentos. Asistencia financiera disponible para clientes de CoServ, TXU, McKinney Water o Atmos.",
+			en: "Food pantry",
+			es: "Despensa de alimentos",
 		},
-		website: "https://www.communitylifeline.org/rent--utility-help.html",
+		website: "https://saminn.org/food-pantry/",
 		additionalResources: [
-			{
-				address: "455 Monte Carlo Boulevard, Princeton, TX 75407",
-				hours: {
-					en: [
-						"October 21, 2023 9:00 AM - 11:00 AM",
-						"November 4, 2023 9:00 AM - 11:00 AM",
-						"November 18, 2023 9:00 AM - 11:00 AM",
-						"December 2, 2023 9:00 AM - 11:00 AM",
-						"December 16, 2023 9:00 AM - 11:00 AM",
-					],
-					es: [
-						"Octubre 21, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 4, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 18, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 2, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 16, 2023 9:00 AM - 11:00 AM",
-					],
-				},
-				idRequired: false,
-				name: {
-					en: "Southard Middle School",
-					es: "Southard Middle School",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
 			{
 				address: "401 West Erwin Avenue, McKinney, TX 75069",
 				hours: {
-					en: [
-						"October 21, 2023 9:00 AM - 11:00 AM",
-						"November 18, 2023 9:00 AM - 11:00 AM",
-						"December 16, 2023 9:00 AM - 11:00 AM",
-					],
-					es: [
-						"Octubre 21, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 4, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 16, 2023 9:00 AM - 11:00 AM",
-					],
+					en: ["Every Third Saturday of the Month 9:00 AM - 11:00 AM"],
+					es: ["Cada tercer sábado del mes de 9:00 AM a 11:00 AM"],
 				},
 				idRequired: false,
 				name: {
@@ -222,50 +154,10 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "300 Main Street, Weston, TX 75097",
-				hours: {
-					en: ["October 14, 2023 9:00 AM - 11:00 AM"],
-					es: ["Octubre 14, 2023 9:00 AM - 11:00 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "First Baptist Church of Weston",
-					es: "First Baptist Church Weston",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
-				address: "115 West Street, Celina, TX 75009",
-				hours: {
-					en: ["November 11, 2023 9:00 AM - 11:00 AM"],
-					es: ["Noviembre 11, 2023 9:00 AM - 11:00 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "Bethel Baptist Church Celina (hosted at Calvary Chapel Church)",
-					es: "Bethel Baptist Church Celina",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
 				address: "1800 West Hunt Street, McKinney, TX 75069",
 				hours: {
-					en: [
-						"October 7, 2023 9:00 AM - 10:30 AM",
-						"November 4, 2023 9:00 AM - 10:30 AM",
-						"December 2, 2023 9:00 AM - 10:30 AM",
-					],
-					es: [
-						"Octubre 7, 2023 9:00 AM - 10:30 AM",
-						"Noviembre 4, 2023 9:00 AM - 10:30 AM",
-						"Diciembre 2, 2023 9:00 AM - 10:30 AM",
-					],
+					en: ["Every First Saturday of the Month 9:00 AM - 10:30 AM"],
+					es: ["Every First Saturday of the Month 9:00 AM - 10:30 AM"],
 				},
 				idRequired: false,
 				name: {
@@ -281,40 +173,18 @@ const resources: Resource[] = [
 				address: "102 West Lamar Street, McKinney, TX 75069",
 				hours: {
 					en: [
-						"October 14, 2023 9:30 AM - 10:30 AM",
-						"October 28, 2023 9:30 AM - 10:30 AM",
-						"November 11, 2023 9:30 AM - 10:30 AM",
-						"November 25, 2023 9:30 AM - 10:30 AM",
-						"December 9, 2023 9:30 AM - 10:30 AM",
+						"Every Second Saturday of the Month 9:30 AM - 11:00 AM",
+						"Every Fourth Saturday of the Month 9:30 AM - 11:00 AM",
 					],
 					es: [
-						"Octubre 14, 2023 9:30 AM - 10:30 AM",
-						"Octubre 28, 2023 9:30 AM - 10:30 AM",
-						"Noviembre 11, 2023 9:30 AM - 10:30 AM",
-						"Noviembre 25, 2023 9:30 AM - 10:30 AM",
-						"Diciembre 9, 2023 9:30 AM - 10:30 AM",
+						"Cada segundo sábado del mes de 9:30 AM a 11:00 AM",
+						"Cada cuarto sábado del mes de 9:30 AM a 11:00 AM",
 					],
 				},
 				idRequired: false,
 				name: {
 					en: "First United Methodist Church",
 					es: "First United Methodist Church",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
-				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
-				hours: {
-					en: ["October 28, 2023 9:00 AM - 10:30 AM"],
-					es: ["Octubre 28, 2023 9:00 AM - 10:30 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "St. Andrew's Episcopal Church",
-					es: "St. Andrew's Episcopal Church",
 				},
 				services: {
 					en: "Mobile food distribution",
@@ -354,6 +224,7 @@ const resources: Resource[] = [
 			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
 			es: "Productos agrícolas, conservas, huevos y carnes que se ofrecen con una comida caliente.",
 		},
+		website: "https://theparkschurch.com",
 	},
 	{
 		address: "1711 Parker Road, Wylie, TX 75098",
@@ -430,17 +301,21 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		website: "https://25project.org",
+		website: "https://25project.org/locations/mco/",
 	},
 	{
 		address: "801 East Main Street, Allen, TX 75002",
 		hours: {
 			en: [
-				"Tuesday 9:00 AM - 11:00 AM, 5:00 PM - 7:00 PM",
-				"Thursday 9:00 AM - 11:00 AM",
-				"Saturday 9:00 AM - 11:00 AM",
+				"Tuesday 9:00 AM - 6:00 PM (Choice Shopping)",
+				"Thursday 9:00 AM - 6:00 PM (Choice Shopping)",
+				"Friday 12:00 PM - 6:00 PM (Curbside Pickup)",
 			],
-			es: ["Lunes 5:00 PM - 6:30 PM", "Jueves 5:00 PM - 6:30 PM"],
+			es: [
+				"Martes 9:00 AM - 6:00 PM (Compras a elección)",
+				"Jueves 9:00 AM - 6:00 PM (Compras a elección)",
+				"Viernes 12:00 PM - 6:00 PM (Recogida en la acera)",
+			],
 		},
 		idRequired: true,
 		name: {
@@ -448,8 +323,8 @@ const resources: Resource[] = [
 			es: "All Community Outreach",
 		},
 		notes: {
-			en: "Proof of Collin County residency is required. For new clients, a QR code will be emailed after completion of a brief application in the drive-thru line. The QR code is required for future visits. Sometimes the need for food is NOW. For those extreme situations ACO’s 801 E. Main Street location stocks a limited number of basic food supplies in our main office. If you are in need of emergency food, call ACO’s office at 972-727-9131.",
-			es: "Se requiere prueba de residencia en el condado de Collin. Para los nuevos clientes, se les enviará un código QR por correo electrónico después de completar una breve solicitud en la fila del autoservicio. El código QR es necesario para futuras visitas. A veces la necesidad de comida es AHORA. Para esas situaciones extremas, la ubicación de ACO en 801 E. Main Street almacena una cantidad limitada de suministros de alimentos básicos en nuestra oficina principal. Si necesita alimentos de emergencia, llame a la oficina de ACO al 972-727-9131.",
+			en: "APPOINTMENT REQUIRED! Proof of Collin County residency is required. For new clients, a QR code will be emailed after completion of a brief application in the drive-thru line. The QR code is required for future visits. Sometimes the need for food is NOW. For those extreme situations ACO’s 801 E. Main Street location stocks a limited number of basic food supplies in our main office. If you are in need of emergency food, call ACO’s office at 972-727-9131.",
+			es: "¡SE REQUIERE CITA PREVIA! Se requiere prueba de residencia en el condado de Collin. Para los nuevos clientes, se les enviará un código QR por correo electrónico después de completar una breve solicitud en la fila del autoservicio. El código QR es necesario para futuras visitas. A veces la necesidad de comida es AHORA. Para esas situaciones extremas, la ubicación de ACO en 801 E. Main Street almacena una cantidad limitada de suministros de alimentos básicos en nuestra oficina principal. Si necesita alimentos de emergencia, llame a la oficina de ACO al 972-727-9131.",
 		},
 		phone: "(972) 727-9131",
 		services: {
@@ -459,7 +334,8 @@ const resources: Resource[] = [
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
-		address: "Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
+		address:
+			"Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
 		email: "hhkhut33@gmail.com",
 		hours: {
 			en: ["Second Saturday Mornings"],
@@ -484,8 +360,8 @@ const resources: Resource[] = [
 	{
 		address: "Varies by location",
 		hours: {
-			en: ["Second Saturday Mornings"],
-			es: ["Segundo sábado por la mañana"],
+			en: [],
+			es: [],
 		},
 		idRequired: false,
 		name: {
@@ -498,30 +374,6 @@ const resources: Resource[] = [
 		},
 		website: "https://www.mckinneylfp.org",
 		additionalResources: [
-			{
-				address: "110 Davis Street, McKinney, TX 75069",
-				hours: {
-					en: ["All day, everyday"],
-					es: ["Todo el día todos los días"],
-				},
-				idRequired: false,
-				name: {
-					en: "McKinney Little Free Pantry (located on Tennessee Street side)",
-					es: "Pequeña despensa gratuita de McKinney",
-				},
-			},
-			{
-				address: "502 North Kentucky Street, McKinney, TX 75069",
-				hours: {
-					en: ["All day, everyday"],
-					es: ["Todo el día todos los días"],
-				},
-				idRequired: false,
-				name: {
-					en: "McKinney Art House",
-					es: "La Casa del Arte",
-				},
-			},
 			{
 				address: "513 West Heard Street, McKinney, TX 75069",
 				hours: {
