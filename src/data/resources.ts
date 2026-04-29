@@ -301,17 +301,21 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		website: "https://25project.org",
+		website: "https://25project.org/locations/mco/",
 	},
 	{
 		address: "801 East Main Street, Allen, TX 75002",
 		hours: {
 			en: [
-				"Tuesday 9:00 AM - 11:00 AM, 5:00 PM - 7:00 PM",
-				"Thursday 9:00 AM - 11:00 AM",
-				"Saturday 9:00 AM - 11:00 AM",
+				"Tuesday 9:00 AM - 6:00 PM (Choice Shopping)",
+				"Thursday 9:00 AM - 6:00 PM (Choice Shopping)",
+				"Friday 12:00 PM - 6:00 PM (Curbside Pickup)",
 			],
-			es: ["Lunes 5:00 PM - 6:30 PM", "Jueves 5:00 PM - 6:30 PM"],
+			es: [
+				"Martes 9:00 AM - 6:00 PM (Compras a elección)",
+				"Jueves 9:00 AM - 6:00 PM (Compras a elección)",
+				"Viernes 12:00 PM - 6:00 PM (Recogida en la acera)",
+			],
 		},
 		idRequired: true,
 		name: {
