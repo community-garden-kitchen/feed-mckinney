@@ -139,28 +139,28 @@ const resources: Resource[] = [
 		address: "1601 North Waddill Street, Suite 102, McKinney, TX 75069",
 		hours: {
 			en: [
-				"Tuesday 10:00 AM - 3:00 PM",
-				"Wednesday 10:00 AM - 3:00 PM",
-				"Thursday 10:00 AM - 3:00 PM",
-				"Friday 10:00 AM - 3:00 PM",
+				"Tuesday 10:00 AM - 2:45 PM",
+				"Wednesday 10:00 AM - 2:45 PM",
+				"Thursday 10:00 AM - 2:45 PM",
+				"Friday 9:00 AM - 1:45 PM",
 			],
 			es: [
-				"Martes 10:00 AM - 3:00 PM",
-				"Miércoles 10:00 AM - 3:00 PM",
-				"Jueves 10:00 AM - 3:00 PM",
-				"Viernes 10:00 AM - 3:00 PM",
+				"Martes 10:00 AM - 2:45 PM",
+				"Miércoles 10:00 AM - 2:45 PM",
+				"Jueves 10:00 AM - 2:45 PM",
+				"Viernes 9:00 AM - 1:45 PM",
 			],
 		},
 		idRequired: true,
 		name: {
-			en: "Community Lifeline Center",
-			es: "Centro Comunitario de Salvavidas",
+			en: "The Samaritan Inn Food Pantry",
+			es: "The Samaritan Inn Food Pantry",
 		},
 		notes: {
 			en: "Complete online application for financial assistance if qualified.",
 			es: "Complete la solicitud en línea para asistencia financiera si califica.",
 		},
-		phone: "(972) 542-0020",
+		phone: "(972) 547-5567",
 		services: {
 			en: "Food pantry. Financial assistance available to CoServ, TXU, McKinney Water, or Atmos customers.",
 			es: "Despensa de alimentos. Asistencia financiera disponible para clientes de CoServ, TXU, McKinney Water o Atmos.",
@@ -168,46 +168,10 @@ const resources: Resource[] = [
 		website: "https://www.communitylifeline.org/rent--utility-help.html",
 		additionalResources: [
 			{
-				address: "455 Monte Carlo Boulevard, Princeton, TX 75407",
-				hours: {
-					en: [
-						"October 21, 2023 9:00 AM - 11:00 AM",
-						"November 4, 2023 9:00 AM - 11:00 AM",
-						"November 18, 2023 9:00 AM - 11:00 AM",
-						"December 2, 2023 9:00 AM - 11:00 AM",
-						"December 16, 2023 9:00 AM - 11:00 AM",
-					],
-					es: [
-						"Octubre 21, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 4, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 18, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 2, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 16, 2023 9:00 AM - 11:00 AM",
-					],
-				},
-				idRequired: false,
-				name: {
-					en: "Southard Middle School",
-					es: "Southard Middle School",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
 				address: "401 West Erwin Avenue, McKinney, TX 75069",
 				hours: {
-					en: [
-						"October 21, 2023 9:00 AM - 11:00 AM",
-						"November 18, 2023 9:00 AM - 11:00 AM",
-						"December 16, 2023 9:00 AM - 11:00 AM",
-					],
-					es: [
-						"Octubre 21, 2023 9:00 AM - 11:00 AM",
-						"Noviembre 4, 2023 9:00 AM - 11:00 AM",
-						"Diciembre 16, 2023 9:00 AM - 11:00 AM",
-					],
+					en: ["Every Third Saturday of the Month 9:00 AM - 11:00 AM"],
+					es: ["Cada tercer sábado del mes de 9:00 AM a 11:00 AM"],
 				},
 				idRequired: false,
 				name: {
@@ -220,50 +184,10 @@ const resources: Resource[] = [
 				},
 			},
 			{
-				address: "300 Main Street, Weston, TX 75097",
-				hours: {
-					en: ["October 14, 2023 9:00 AM - 11:00 AM"],
-					es: ["Octubre 14, 2023 9:00 AM - 11:00 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "First Baptist Church of Weston",
-					es: "First Baptist Church Weston",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
-				address: "115 West Street, Celina, TX 75009",
-				hours: {
-					en: ["November 11, 2023 9:00 AM - 11:00 AM"],
-					es: ["Noviembre 11, 2023 9:00 AM - 11:00 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "Bethel Baptist Church Celina (hosted at Calvary Chapel Church)",
-					es: "Bethel Baptist Church Celina",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
 				address: "1800 West Hunt Street, McKinney, TX 75069",
 				hours: {
-					en: [
-						"October 7, 2023 9:00 AM - 10:30 AM",
-						"November 4, 2023 9:00 AM - 10:30 AM",
-						"December 2, 2023 9:00 AM - 10:30 AM",
-					],
-					es: [
-						"Octubre 7, 2023 9:00 AM - 10:30 AM",
-						"Noviembre 4, 2023 9:00 AM - 10:30 AM",
-						"Diciembre 2, 2023 9:00 AM - 10:30 AM",
-					],
+					en: ["Every First Saturday of the Month 9:00 AM - 10:30 AM"],
+					es: ["Every First Saturday of the Month 9:00 AM - 10:30 AM"],
 				},
 				idRequired: false,
 				name: {
@@ -279,40 +203,18 @@ const resources: Resource[] = [
 				address: "102 West Lamar Street, McKinney, TX 75069",
 				hours: {
 					en: [
-						"October 14, 2023 9:30 AM - 10:30 AM",
-						"October 28, 2023 9:30 AM - 10:30 AM",
-						"November 11, 2023 9:30 AM - 10:30 AM",
-						"November 25, 2023 9:30 AM - 10:30 AM",
-						"December 9, 2023 9:30 AM - 10:30 AM",
+						"Every Second Saturday of the Month 9:30 AM - 11:00 AM",
+						"Every Fourth Saturday of the Month 9:30 AM - 11:00 AM",
 					],
 					es: [
-						"Octubre 14, 2023 9:30 AM - 10:30 AM",
-						"Octubre 28, 2023 9:30 AM - 10:30 AM",
-						"Noviembre 11, 2023 9:30 AM - 10:30 AM",
-						"Noviembre 25, 2023 9:30 AM - 10:30 AM",
-						"Diciembre 9, 2023 9:30 AM - 10:30 AM",
+						"Cada segundo sábado del mes de 9:30 AM a 11:00 AM",
+						"Cada cuarto sábado del mes de 9:30 AM a 11:00 AM",
 					],
 				},
 				idRequired: false,
 				name: {
 					en: "First United Methodist Church",
 					es: "First United Methodist Church",
-				},
-				services: {
-					en: "Mobile food distribution",
-					es: "Distribución móvil de alimentos",
-				},
-			},
-			{
-				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
-				hours: {
-					en: ["October 28, 2023 9:00 AM - 10:30 AM"],
-					es: ["Octubre 28, 2023 9:00 AM - 10:30 AM"],
-				},
-				idRequired: false,
-				name: {
-					en: "St. Andrew's Episcopal Church",
-					es: "St. Andrew's Episcopal Church",
 				},
 				services: {
 					en: "Mobile food distribution",
