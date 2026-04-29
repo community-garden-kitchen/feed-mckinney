@@ -76,36 +76,6 @@ const resources: Resource[] = [
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
 	},
 	{
-		address: "901 North McDonald Street, McKinney, TX 75069",
-		hours: {
-			en: [
-				"Monday 10:00 AM - 4:00 PM",
-				"Tuesday 10:00 AM - 4:00 PM",
-				"Wednesday 10:00 AM - 4:00 PM",
-				"Thursday 10:00 AM - 4:00 PM",
-				"Friday 10:00 AM - 4:00 PM",
-			],
-			es: [
-				"Lunes 10:00 AM - 4:00 PM",
-				"Martes 10:00 AM - 4:00 PM",
-				"Miércoles 10:00 AM - 4:00 PM",
-				"Jueves 10:00 AM - 4:00 PM",
-				"Viernes 10:00 AM - 4:00 PM",
-			],
-		},
-		idRequired: false,
-		name: {
-			en: "iRise DFW",
-			es: "iRise DFW",
-		},
-		phone: "(214) 548-4447",
-		services: {
-			en: "Food Pantry and support for single moms",
-			es: "Despensa de alimentos y apoyo para madres solteras",
-		},
-		website: "https://www.irisedfw.org",
-	},
-	{
 		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
 		hours: {
 			en: [
