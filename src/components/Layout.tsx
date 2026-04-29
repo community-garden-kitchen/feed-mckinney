@@ -1,7 +1,7 @@
 import { html } from "hono/html";
 import type { FC } from "hono/jsx";
 
-import { Language } from "@/pages/Home.route";
+import type { Language } from "@/pages/Home.route";
 
 type LayoutProps = {
 	children?: unknown;
@@ -35,6 +35,7 @@ export const Layout: FC<LayoutProps> = ({
 			</head>
 			<body>
 				${children}
+				<script defer src="https://analytics.justinnoel.dev/script.js"></script>
 			</body>
 		</html>`;
 };
