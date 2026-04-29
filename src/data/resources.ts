@@ -162,10 +162,10 @@ const resources: Resource[] = [
 		},
 		phone: "(972) 547-5567",
 		services: {
-			en: "Food pantry. Financial assistance available to CoServ, TXU, McKinney Water, or Atmos customers.",
-			es: "Despensa de alimentos. Asistencia financiera disponible para clientes de CoServ, TXU, McKinney Water o Atmos.",
+			en: "Food pantry",
+			es: "Despensa de alimentos",
 		},
-		website: "https://www.communitylifeline.org/rent--utility-help.html",
+		website: "https://saminn.org/food-pantry/",
 		additionalResources: [
 			{
 				address: "401 West Erwin Avenue, McKinney, TX 75069",
