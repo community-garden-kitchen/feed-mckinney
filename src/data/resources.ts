@@ -360,8 +360,8 @@ const resources: Resource[] = [
 	{
 		address: "Varies by location",
 		hours: {
-			en: ["Second Saturday Mornings"],
-			es: ["Segundo sábado por la mañana"],
+			en: [],
+			es: [],
 		},
 		idRequired: false,
 		name: {
@@ -374,30 +374,6 @@ const resources: Resource[] = [
 		},
 		website: "https://www.mckinneylfp.org",
 		additionalResources: [
-			{
-				address: "110 Davis Street, McKinney, TX 75069",
-				hours: {
-					en: ["All day, everyday"],
-					es: ["Todo el día todos los días"],
-				},
-				idRequired: false,
-				name: {
-					en: "McKinney Little Free Pantry (located on Tennessee Street side)",
-					es: "Pequeña despensa gratuita de McKinney",
-				},
-			},
-			{
-				address: "502 North Kentucky Street, McKinney, TX 75069",
-				hours: {
-					en: ["All day, everyday"],
-					es: ["Todo el día todos los días"],
-				},
-				idRequired: false,
-				name: {
-					en: "McKinney Art House",
-					es: "La Casa del Arte",
-				},
-			},
 			{
 				address: "513 West Heard Street, McKinney, TX 75069",
 				hours: {
