@@ -18,6 +18,12 @@ export const ResourceItem: FC<ResourceProps> = ({
 		<li>
 			<h2 class="underline name">{resource.name[language]}</h2>
 			<div>
+				<span class="bold">{translations.updated[language]}: </span>
+				{new Date(resource.updated).toLocaleDateString(language, {
+					dateStyle: "long",
+				})}
+			</div>
+			<div>
 				<a href={addressUrl} class="underline">
 					{resource.address}
 				</a>

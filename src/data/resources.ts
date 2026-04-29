@@ -20,6 +20,7 @@ export type Resource = {
 		en: string;
 		es: string;
 	};
+	updated: string;
 	website?: string;
 };
 
@@ -49,6 +50,7 @@ const resources: Resource[] = [
 			en: "Free restaurant style meals for your whole family",
 			es: "Comidas estilo restaurante gratuitas para toda tu familia.",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://communitygardenkitchen.org/",
 	},
 	{
@@ -73,6 +75,7 @@ const resources: Resource[] = [
 			es: "Iglesia del Nazareno Renovación",
 		},
 		phone: "(214) 944-7260",
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
 	},
 	{
@@ -103,6 +106,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://salvationarmyntx.org/north-texas/mckinney",
 	},
 	{
@@ -135,6 +139,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://saminn.org/food-pantry/",
 		additionalResources: [
 			{
@@ -152,6 +157,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "1800 West Hunt Street, McKinney, TX 75069",
@@ -168,6 +174,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "102 West Lamar Street, McKinney, TX 75069",
@@ -190,6 +197,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 		],
 	},
@@ -208,6 +216,7 @@ const resources: Resource[] = [
 			en: "Hot meals",
 			es: "Hot meals",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 	},
 	{
 		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
@@ -224,6 +233,7 @@ const resources: Resource[] = [
 			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
 			es: "Productos agrícolas, conservas, huevos y carnes que se ofrecen con una comida caliente.",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://theparkschurch.com",
 	},
 	{
@@ -250,6 +260,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "http://www.amazinggracepantry.org",
 	},
 	{
@@ -278,6 +289,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://stmichaelmckinney.org/st-vincent-de-paul-",
 	},
 	{
@@ -301,6 +313,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://25project.org/locations/mco/",
 	},
 	{
@@ -331,6 +344,7 @@ const resources: Resource[] = [
 			en: "Food pantry and financial assistance",
 			es: "Despensa de alimentos y asistencia financiera",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
@@ -355,6 +369,7 @@ const resources: Resource[] = [
 			en: "Provides diapers, wipes, period products, and occasionally formula to families",
 			es: "Proporciona pañales, toallitas húmedas, productos para la menstruación y, ocasionalmente, fórmula a las familias.",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://babybootiesdiaperbank.org/get-help/",
 	},
 	{
@@ -372,6 +387,7 @@ const resources: Resource[] = [
 			en: "Provides provide non-perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day, 7 days a week with no rules or regulations as to who receives the assistance.",
 			es: "Proporciona alimentos no perecederos, artículos de tocador y artículos de primera necesidad con respeto, amor y dignidad tanto para los compradores como para los donantes. Esta asistencia está disponible las 24 horas del día, los 7 días de la semana, sin reglas ni regulaciones sobre quién recibe la asistencia.",
 		},
+		updated: "2026-04-29T07:00:00-05:00",
 		website: "https://www.mckinneylfp.org",
 		additionalResources: [
 			{
@@ -385,6 +401,7 @@ const resources: Resource[] = [
 					en: "Private Residence",
 					es: "Residencia Privada",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "604 Rike Street, McKinney, TX 75069",
@@ -397,6 +414,7 @@ const resources: Resource[] = [
 					en: "Church of the Nazarene",
 					es: "Iglesia del Nazareno Renovación",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "400 North College Street, McKinney, TX 75069",
@@ -409,6 +427,7 @@ const resources: Resource[] = [
 					en: "St Peter’s Episcopal Church Parking Lot",
 					es: "St Peter’s Episcopal Church Parking Lot",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "5871 Virginia Parkway, McKinney, TX 75071",
@@ -421,6 +440,7 @@ const resources: Resource[] = [
 					en: "Behind Trinity Presbyterian Church",
 					es: "Behind Trinity Presbyterian Church",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "614 Blue Ridge Street, McKinney, TX 75072",
@@ -433,6 +453,7 @@ const resources: Resource[] = [
 					en: "Private Residence",
 					es: "Residencia Privada",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "404 Lincoln Street, Plano, TX 75069",
@@ -445,6 +466,7 @@ const resources: Resource[] = [
 					en: "Holy Family Episcopal Church",
 					es: "Iglesia Episcopal de la Santa Natividad",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "110 St. Gabriel Way, McKinney, TX 75071",
@@ -457,6 +479,7 @@ const resources: Resource[] = [
 					en: "St. Gabriel the Archangel Church",
 					es: "St. Gabriel the Archangel Church",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
@@ -469,6 +492,7 @@ const resources: Resource[] = [
 					en: "St. Andrew’s Episcopal Church",
 					es: "St. Andrew’s Episcopal Church",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "2000 West White Avenue, McKinney, TX 75069",
@@ -481,6 +505,7 @@ const resources: Resource[] = [
 					en: "First Presbyterian Church",
 					es: "First Presbyterian Church",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "1811 Ridge Road, McKinney, TX 75071",
@@ -493,6 +518,7 @@ const resources: Resource[] = [
 					en: "Southeast backside of Masonic Temple",
 					es: "SE backside of Masonic Temple",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
 				address: "1827 West Louisiana Street, McKinney, TX 75069",
@@ -509,6 +535,7 @@ const resources: Resource[] = [
 					en: "**Pet Pantry Only**",
 					es: "**Pet Pantry Only**",
 				},
+				updated: "2026-04-29T07:00:00-05:00",
 			},
 		],
 	},
