@@ -39,6 +39,10 @@ const translations = {
 		en: "Website maintained by Justin Noel in cooperation with the Community Garden Kitchen.",
 		es: "Este sitio web está mantenido por Justin Noel en cooperación con la Cocina del Jardín Comunitario (Community Garden Kitchen).",
 	},
+	updated: {
+		en: "Updated",
+		es: "Actualizado",
+	},
 	updatesText: {
 		en: "To request corrections or add your organization to this site, please email",
 		es: "Para pedir correcciones o agregar su organización a este sitio web, por favor envíe por correo electrónico a",
