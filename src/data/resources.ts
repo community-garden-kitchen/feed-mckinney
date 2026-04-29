@@ -309,13 +309,13 @@ const resources: Resource[] = [
 		website: "https://stmichaelmckinney.org/st-vincent-de-paul-",
 	},
 	{
-		address: "3107 Highway 5 (McKinney Street), Melissa, TX 75454",
-		email: "Dena@project.org",
+		address: "3107 McKinney Street (Hwy 5), Melissa, TX 75454",
+		email: "Tammy@25project.org",
 		hours: {
 			en: ["Monday 5:00 PM - 6:30 PM", "Thursday 5:00 PM - 6:30 PM"],
 			es: ["Lunes 5:00 PM - 6:30 PM", "Jueves 5:00 PM - 6:30 PM"],
 		},
-		idRequired: false,
+		idRequired: true,
 		name: {
 			en: "Melissa Community Outreach",
 			es: "Melissa Community Outreach",
