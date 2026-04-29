@@ -46,6 +46,10 @@ const resources: Resource[] = [
 			en: "Community Garden Kitchen",
 			es: "Cocina con Jardín Comunitario",
 		},
+		notes: {
+			en: "Pending verificaton from April 29, 2026",
+			es: "Verificación pendiente desde el 29 de abril de 2026",
+		},
 		services: {
 			en: "Free restaurant style meals for your whole family",
 			es: "Comidas estilo restaurante gratuitas para toda tu familia.",
@@ -73,6 +77,10 @@ const resources: Resource[] = [
 		name: {
 			en: "Church of the Nazarene",
 			es: "Iglesia del Nazareno Renovación",
+		},
+		notes: {
+			en: "Pending verificaton from April 29, 2026",
+			es: "Verificación pendiente desde el 29 de abril de 2026",
 		},
 		phone: "(214) 944-7260",
 		updated: "2026-04-29T07:00:00-05:00",
@@ -212,6 +220,10 @@ const resources: Resource[] = [
 			en: "Roadside Church",
 			es: "Roadside Church",
 		},
+		notes: {
+			en: "Pending verificaton from April 29, 2026",
+			es: "Verificación pendiente desde el 29 de abril de 2026",
+		},
 		services: {
 			en: "Hot meals",
 			es: "Hot meals",
@@ -228,6 +240,10 @@ const resources: Resource[] = [
 		name: {
 			en: "The Parks Church",
 			es: "The Parks Church",
+		},
+		notes: {
+			en: "Pending verificaton from April 29, 2026",
+			es: "Verificación pendiente desde el 29 de abril de 2026",
 		},
 		services: {
 			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
