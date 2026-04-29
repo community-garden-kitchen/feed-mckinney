@@ -224,6 +224,7 @@ const resources: Resource[] = [
 			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
 			es: "Productos agrícolas, conservas, huevos y carnes que se ofrecen con una comida caliente.",
 		},
+		website: "https://theparkschurch.com",
 	},
 	{
 		address: "1711 Parker Road, Wylie, TX 75098",
