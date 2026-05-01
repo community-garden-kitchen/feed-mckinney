@@ -282,14 +282,8 @@ const resources: Resource[] = [
 	{
 		address: "411 Paula Road, McKinney, TX 75069",
 		hours: {
-			en: [
-				"Tuesday 2:00 PM - 4:00 PM",
-				"First and Third Thursday 2:00 PM - 4:00 PM",
-			],
-			es: [
-				"Martes 2:00 PM - 4:00 PM",
-				"Primer y tercer jueves 2:00 PM - 4:00 PM",
-			],
+			en: ["Tuesday 2:00 PM - 4:00 PM", "Third Thursday 2:00 PM - 4:00 PM"],
+			es: ["Martes 2:00 PM - 4:00 PM", "Tercer jueves de 14:00 a 16:00"],
 		},
 		idRequired: true,
 		name: {
@@ -297,15 +291,15 @@ const resources: Resource[] = [
 			es: "St. Vincent de Paul",
 		},
 		notes: {
-			en: "Must bring photo ID and proof of residency (utility bill or similar). once every 4 weeks",
-			es: "Debe traer identificación con fotografía y comprobante de residencia (factura de servicios públicos o similar). una vez cada 4 semanas",
+			en: "Must bring photo ID and proof of residency (utility bill or similar). Can use the pantry once over 2 weeks.",
+			es: "Debe traer identificación con fotografía y comprobante de residencia (factura de servicios públicos o similar). Se puede usar la despensa una vez cada dos semanas.",
 		},
 		phone: "(214) 973-3435",
 		services: {
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-01T07:00:00-05:00",
 		website: "https://stmichaelmckinney.org/st-vincent-de-paul-",
 	},
 	{
