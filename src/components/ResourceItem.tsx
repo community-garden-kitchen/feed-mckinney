@@ -1,8 +1,8 @@
 import type { FC } from "hono/jsx";
 
-import { Resource } from "@/data/resources";
-import { Language } from "@/pages/Home.route";
+import type { Resource } from "@/data/resources";
 import translations from "@/data/translations";
+import type { Language } from "@/pages/Home.route";
 
 type ResourceProps = {
 	language: Language;
@@ -31,7 +31,13 @@ export const ResourceItem: FC<ResourceProps> = ({
 
 			{resource.phone ? <div>{resource.phone}</div> : null}
 
-			{resource.email ? <div>{resource.email}</div> : null}
+			{resource.email ? (
+				<div>
+					<a href={`mailto:${resource.email}`} class="underline">
+						{resource.email}
+					</a>
+				</div>
+			) : null}
 
 			{resource.website ? (
 				<a href={resource.website} class="underline">
