@@ -14,9 +14,16 @@ export const ResourceItem: FC<ResourceProps> = ({
 	resource,
 }) => {
 	const addressUrl = `http://maps.apple.com/?daddr=${resource.address}`;
+	const anchorId = resource.name.en
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/^-|-$/g, "");
 	return (
-		<li>
-			<h2 class="underline name">{resource.name[language]}</h2>
+		<li id={anchorId}>
+			<h2 class="underline name">
+				<a href={`#${anchorId}`}>{resource.name[language]}</a>
+			</h2>
+
 			<div>
 				<span class="bold">{translations.updated[language]}: </span>
 				{new Date(resource.updated).toLocaleDateString(language, {
