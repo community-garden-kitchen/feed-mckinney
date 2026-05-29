@@ -54,50 +54,21 @@ const resources: Resource[] = [
 			en: "Free restaurant style meals for your whole family",
 			es: "Comidas estilo restaurante gratuitas para toda tu familia.",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://communitygardenkitchen.org/",
-	},
-	{
-		address: "604 Rike Street, McKinney, TX 75069",
-		hours: {
-			en: [
-				"2nd Saturday 9:00 AM - 12:00 PM",
-				"4th Sunday 11:30 AM - 1:00 PM",
-				"Tuesday 9:00 AM - 11:00 AM",
-				"Thursday 10:00 AM - 11:00 AM",
-			],
-			es: [
-				"2do sábado 9:00 AM - 12:00 PM",
-				"4to domingo 11:30 AM - 1:00 PM",
-				"Martes 9:00 AM - 11:00 AM",
-				"Jueves 10:00 AM - 11:00 AM",
-			],
-		},
-		idRequired: false,
-		name: {
-			en: "Church of the Nazarene",
-			es: "Iglesia del Nazareno Renovación",
-		},
-		notes: {
-			en: "Pending verificaton from April 29, 2026",
-			es: "Verificación pendiente desde el 29 de abril de 2026",
-		},
-		phone: "(214) 944-7260",
-		updated: "2026-04-29T07:00:00-05:00",
-		website: "https://mckinneyrenovacion.wixsite.com/renovacion-nazareno",
 	},
 	{
 		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
 		hours: {
 			en: [
-				"Monday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Wednesday 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Friday 9:00 AM - 12:00 PM",
+				"Monday 9:30 AM - 11:30 AM",
+				"Wednesday 9:30 AM - 11:30 AM",
+				"Friday  9:30 AM - 11:30 AM",
 			],
 			es: [
-				"Lunes 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Miércoles 9:00 AM - 12:00 PM, 1:00 PM - 3:00 PM",
-				"Viernes 9:00 AM - 12:00 PM",
+				"Lunes 9:30 AM - 11:30 AM",
+				"Miércoles 9:30 AM - 11:30 AM",
+				"Viernes  9:30 AM - 11:30 AM",
 			],
 		},
 		idRequired: true,
@@ -114,22 +85,22 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://salvationarmyntx.org/north-texas/mckinney",
 	},
 	{
 		address: "1601 North Waddill Street, Suite 102, McKinney, TX 75069",
 		hours: {
 			en: [
-				"Tuesday 10:00 AM - 2:45 PM",
-				"Wednesday 10:00 AM - 2:45 PM",
-				"Thursday 10:00 AM - 2:45 PM",
+				"Tuesday 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
+				"Wednesday 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
+				"Thursday 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
 				"Friday 9:00 AM - 1:45 PM",
 			],
 			es: [
-				"Martes 10:00 AM - 2:45 PM",
-				"Miércoles 10:00 AM - 2:45 PM",
-				"Jueves 10:00 AM - 2:45 PM",
+				"Martes 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
+				"Miércoles 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
+				"Jueves 10:00 AM - 1:00 PM, 1:30 PM - 2:45 PM",
 				"Viernes 9:00 AM - 1:45 PM",
 			],
 		},
@@ -147,7 +118,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://saminn.org/food-pantry/",
 		additionalResources: [
 			{
@@ -210,49 +181,6 @@ const resources: Resource[] = [
 		],
 	},
 	{
-		address: "107 East Lamar Street, McKinney, TX 75069",
-		hours: {
-			en: ["Sunday 4:00 PM"],
-			es: ["Domingo 4:00 PM"],
-		},
-		idRequired: false,
-		name: {
-			en: "Roadside Church",
-			es: "Roadside Church",
-		},
-		notes: {
-			en: "Pending verificaton from April 29, 2026",
-			es: "Verificación pendiente desde el 29 de abril de 2026",
-		},
-		services: {
-			en: "Hot meals",
-			es: "Hot meals",
-		},
-		updated: "2026-04-29T07:00:00-05:00",
-	},
-	{
-		address: "600 Wilson Creek Parkway, McKinney, TX 75069",
-		hours: {
-			en: ["Sunday 11:45 AM - 1:00 PM"],
-			es: ["Domingo 11:45 AM - 1:00 PM"],
-		},
-		idRequired: false,
-		name: {
-			en: "The Parks Church",
-			es: "The Parks Church",
-		},
-		notes: {
-			en: "Pending verificaton from April 29, 2026",
-			es: "Verificación pendiente desde el 29 de abril de 2026",
-		},
-		services: {
-			en: "Produce, canned goods, eggs and meat offered with a hot meal.",
-			es: "Productos agrícolas, conservas, huevos y carnes que se ofrecen con una comida caliente.",
-		},
-		updated: "2026-04-29T07:00:00-05:00",
-		website: "https://theparkschurch.com",
-	},
-	{
 		address: "1711 Parker Road, Wylie, TX 75098",
 		hours: {
 			en: [
@@ -276,7 +204,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "http://www.amazinggracepantry.org",
 	},
 	{
@@ -323,7 +251,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://25project.org/locations/mco/",
 	},
 	{
@@ -332,12 +260,12 @@ const resources: Resource[] = [
 			en: [
 				"Tuesday 9:00 AM - 6:00 PM (Choice Shopping)",
 				"Thursday 9:00 AM - 6:00 PM (Choice Shopping)",
-				"Friday 12:00 PM - 6:00 PM (Curbside Pickup)",
+				"Friday 12:00 PM - 2:00 PM (Curbside Pickup)",
 			],
 			es: [
 				"Martes 9:00 AM - 6:00 PM (Compras a elección)",
 				"Jueves 9:00 AM - 6:00 PM (Compras a elección)",
-				"Viernes 12:00 PM - 6:00 PM (Recogida en la acera)",
+				"Viernes 12:00 PM - 2:00 PM (Recogida en la acera)",
 			],
 		},
 		idRequired: true,
@@ -354,7 +282,7 @@ const resources: Resource[] = [
 			en: "Food pantry and financial assistance",
 			es: "Despensa de alimentos y asistencia financiera",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
@@ -362,8 +290,12 @@ const resources: Resource[] = [
 			"Hope Fellowship Church, 1702 West University Drive, McKinney, TX 75069",
 		email: "hhkhut33@gmail.com",
 		hours: {
-			en: ["Second Saturday Mornings"],
-			es: ["Segundo sábado por la mañana"],
+			en: [
+				"Second Saturday Mornings,  8:30 Am - 9:30 AM, TUPPS Brewery, 402 E Louisiana St",
+			],
+			es: [
+				"Segundo sábado de cada mes, de 8:30 a. m. a 9:30 a. m., TUPPS Brewery, 402 E Louisiana St",
+			],
 		},
 		idRequired: true,
 		name: {
@@ -379,15 +311,15 @@ const resources: Resource[] = [
 			en: "Provides diapers, wipes, period products, and occasionally formula to families",
 			es: "Proporciona pañales, toallitas húmedas, productos para la menstruación y, ocasionalmente, fórmula a las familias.",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-05-29T07:00:00-05:00",
 		website: "https://babybootiesdiaperbank.org/get-help/",
 	},
 	{
 		address: "3101 Coit Road, Plano, TX 75075",
 		email: "cumc@cumc.com",
 		hours: {
-			en: ["Every First Thursday 1:00 PM - 2:30 PM"],
-			es: ["Cada Primer Jueves De Cada Mes.  1:00 PM - 2:30 PM"],
+			en: ["Every First Thursday 1:00 PM - 2:30 PM, North Parking Lot"],
+			es: ["Cada primer jueves de 1:00 PM a 2:30 PM, estacionamiento norte"],
 		},
 		idRequired: false,
 		name: {
@@ -398,8 +330,8 @@ const resources: Resource[] = [
 			en: "The Christ United Methodist Church Corner Pantry is hosting its Mobile Food Bank events on the first Thursday of every month. Partnered with The North Texas Food Bank and Catholic Charities, they will be providing a box of groceries to each car in line (boxes can contain both shelf stable and refrigerated items) for all neighbors facing food insecurity, while supplies last. Distribution will take place from 1 PM - 2:30 PM at Christ United Methodist Church, located at 3101 Coit Rd. Plano, TX, 75075, in the North parking lot. Enter from the Coit Road entrance to join the car line. Volunteers will be present to direct you, and help you fill out any needed paperwork",
 			es: "La Despensa de la Esquina de la Iglesia Christ United Methodist Church está organizando sus eventos del Banco Móvil de Alimentos el primer jueves de cada mes. En asociación con el Banco de Alimentos del Norte de Texas y Caridades Católicas, se proporcionará una caja de comestibles a cada automóvil en la fila (las cajas pueden contener artículos no perecibles y refrigerados) para todos los vecinos que enfrentan necesidad alimentaria, hasta agotar existencias. La distribución se llevará a cabo de 1 PM a 2:30 PM en la Iglesia Christ United Methodist Church, cuya direccion es 3101 Coit Rd. Plano, TX, 75075, en el estacionamiento norte. Ingrese por la entrada de Coit Road para unirse a la línea de autos. Los voluntarios estarán presentes para dirigirlo y ayudarlo a completar cualquier papeleo necesario.",
 		},
-		updated: "2026-05-22T07:00:00-05:00",
-		website: "https://www.cumc.com",
+		updated: "2026-05-29T07:00:00-05:00",
+		website: "https://cumc.com/events/corner-pantry/",
 	},
 
 	{
