@@ -11,6 +11,10 @@ export type Resource = {
 		en: string;
 		es: string;
 	};
+	map: {
+		en: string;
+		es: string;
+	};
 	notes?: {
 		en: string;
 		es: string;
@@ -42,13 +46,13 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: false,
+		map: {
+			en: "https://map2me.link/community-garden-kitchen-lf9z",
+			es: "https://map2me.link/cocina-con-jardin-comunitario-community-xx6i",
+		},
 		name: {
 			en: "Community Garden Kitchen",
 			es: "Cocina con Jardín Comunitario",
-		},
-		notes: {
-			en: "Pending verificaton from April 29, 2026",
-			es: "Verificación pendiente desde el 29 de abril de 2026",
 		},
 		services: {
 			en: "Free restaurant style meals for your whole family",
@@ -72,9 +76,13 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/the-salvation-army-of-mckinney-4xxm",
+			es: "https://map2me.link/el-ejercito-de-salvacion-de-mckinney-the-tcrs",
+		},
 		name: {
 			en: "The Salvation Army of McKinney",
-			es: "Ejército de Salvación Collin County",
+			es: "El Ejército de Salvación de McKinney",
 		},
 		notes: {
 			en: "Bring photo ID and proof of residency (utility bill or similar). Fresh produce available on Monday and Wednesday mornings.",
@@ -105,6 +113,10 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/the-samaritan-inn-food-pantry-y0w0",
+			es: "https://map2me.link/the-samaritan-inn-food-pantry-o98g",
+		},
 		name: {
 			en: "The Samaritan Inn Food Pantry",
 			es: "The Samaritan Inn Food Pantry",
@@ -128,6 +140,10 @@ const resources: Resource[] = [
 					es: ["Cada tercer sábado del mes de 9:00 AM a 11:00 AM"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/mckinney-first-baptist-church-aiu6",
+					es: "https://map2me.link/mckinney-first-baptist-church-b1fk",
+				},
 				name: {
 					en: "McKinney First Baptist Church",
 					es: "McKinney First Baptist Church",
@@ -145,6 +161,10 @@ const resources: Resource[] = [
 					es: ["Every First Saturday of the Month 9:00 AM - 10:30 AM"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/first-christian-church-mckinney-clxx",
+					es: "https://map2me.link/first-christian-church-mckinney-70w8",
+				},
 				name: {
 					en: "First Christian Church McKinney",
 					es: "First Christian Church McKinney",
@@ -168,6 +188,10 @@ const resources: Resource[] = [
 					],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/first-united-methodist-church-s8vy",
+					es: "https://map2me.link/first-united-methodist-church-g7be",
+				},
 				name: {
 					en: "First United Methodist Church",
 					es: "First United Methodist Church",
@@ -195,6 +219,10 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: false,
+		map: {
+			en: "https://map2me.link/amazing-grace-food-pantry-5iwq",
+			es: "https://map2me.link/amazing-grace-food-pantry-zgw0",
+		},
 		name: {
 			en: "Amazing Grace Food Pantry",
 			es: "Amazing Grace Food Pantry",
@@ -214,6 +242,10 @@ const resources: Resource[] = [
 			es: ["Martes 2:00 PM - 4:00 PM", "Tercer jueves de 14:00 a 16:00"],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/st-vincent-de-paul-hosted-at-st-michael-p0nm",
+			es: "https://map2me.link/st-vincent-de-paul-hosted-at-st-michael-tym9",
+		},
 		name: {
 			en: "St. Vincent de Paul (hosted at St. Michael the Archangel)",
 			es: "St. Vincent de Paul",
@@ -238,6 +270,10 @@ const resources: Resource[] = [
 			es: ["Lunes 5:00 PM - 6:30 PM", "Jueves 5:00 PM - 6:30 PM"],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/melissa-community-outreach-cudk",
+			es: "https://map2me.link/melissa-community-outreach-413g",
+		},
 		name: {
 			en: "Melissa Community Outreach",
 			es: "Melissa Community Outreach",
@@ -269,6 +305,10 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/all-community-outreach-1tds",
+			es: "https://map2me.link/all-community-outreach-5i9s",
+		},
 		name: {
 			en: "All Community Outreach",
 			es: "All Community Outreach",
@@ -298,6 +338,10 @@ const resources: Resource[] = [
 			],
 		},
 		idRequired: true,
+		map: {
+			en: "https://map2me.link/baby-booties-diaper-bank-tb7h",
+			es: "https://map2me.link/banco-de-panales-para-patucos-de-bebe-ba-euqk",
+		},
 		name: {
 			en: "Baby Booties Diaper Bank",
 			es: "Banco de pañales para patucos de bebé",
@@ -322,6 +366,10 @@ const resources: Resource[] = [
 			es: ["Cada primer jueves de 1:00 PM a 2:30 PM, estacionamiento norte"],
 		},
 		idRequired: false,
+		map: {
+			en: "https://map2me.link/christ-united-methodist-church-corner-pa-9u3n",
+			es: "https://map2me.link/christ-united-methodist-church-corner-pa-igji",
+		},
 		name: {
 			en: "Christ United Methodist Church Corner Pantry",
 			es: "Christ United Methodist Church Corner Pantry (Despensa de Esquina)",
@@ -359,6 +407,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/private-residence-6k7o",
+					es: "https://map2me.link/residencia-privada-private-residence-tmgs",
+				},
 				name: {
 					en: "Private Residence",
 					es: "Residencia Privada",
@@ -372,6 +424,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/church-of-the-nazarene-1xfv",
+					es: "https://map2me.link/iglesia-del-nazareno-renovacion-church-o-s6ek",
+				},
 				name: {
 					en: "Church of the Nazarene",
 					es: "Iglesia del Nazareno Renovación",
@@ -385,6 +441,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/st-peter-s-episcopal-church-parking-lot-7qaj",
+					es: "https://map2me.link/st-peter-s-episcopal-church-parking-lot-9w61",
+				},
 				name: {
 					en: "St Peter’s Episcopal Church Parking Lot",
 					es: "St Peter’s Episcopal Church Parking Lot",
@@ -398,6 +458,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/behind-trinity-presbyterian-church-lk2i",
+					es: "https://map2me.link/behind-trinity-presbyterian-church-1m0j",
+				},
 				name: {
 					en: "Behind Trinity Presbyterian Church",
 					es: "Behind Trinity Presbyterian Church",
@@ -411,6 +475,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/private-residence-1alr",
+					es: "https://map2me.link/residencia-privada-private-residence-8og7",
+				},
 				name: {
 					en: "Private Residence",
 					es: "Residencia Privada",
@@ -418,12 +486,16 @@ const resources: Resource[] = [
 				updated: "2026-04-29T07:00:00-05:00",
 			},
 			{
-				address: "404 Lincoln Street, Plano, TX 75069",
+				address: "404 Lincoln Street, McKinney, TX 75069",
 				hours: {
 					en: ["All day, everyday"],
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/holy-family-episcopal-church-8oit",
+					es: "https://map2me.link/iglesia-episcopal-de-la-santa-natividad-1rn0",
+				},
 				name: {
 					en: "Holy Family Episcopal Church",
 					es: "Iglesia Episcopal de la Santa Natividad",
@@ -437,6 +509,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/st-gabriel-the-archangel-church-7h17",
+					es: "https://map2me.link/st-gabriel-the-archangel-church-9oex",
+				},
 				name: {
 					en: "St. Gabriel the Archangel Church",
 					es: "St. Gabriel the Archangel Church",
@@ -450,6 +526,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/st-andrew-s-episcopal-church-vcr5",
+					es: "https://map2me.link/st-andrew-s-episcopal-church-t1ht",
+				},
 				name: {
 					en: "St. Andrew’s Episcopal Church",
 					es: "St. Andrew’s Episcopal Church",
@@ -463,6 +543,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/first-presbyterian-church-vlqe",
+					es: "https://map2me.link/first-presbyterian-church-h9we",
+				},
 				name: {
 					en: "First Presbyterian Church",
 					es: "First Presbyterian Church",
@@ -476,6 +560,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/southeast-backside-of-masonic-temple-q7lt",
+					es: "https://map2me.link/se-backside-of-masonic-temple-southeast-44j9",
+				},
 				name: {
 					en: "Southeast backside of Masonic Temple",
 					es: "SE backside of Masonic Temple",
@@ -489,6 +577,10 @@ const resources: Resource[] = [
 					es: ["Todo el día todos los días"],
 				},
 				idRequired: false,
+				map: {
+					en: "https://map2me.link/the-shot-spot-obyf",
+					es: "https://map2me.link/the-shot-spot-l0rp",
+				},
 				name: {
 					en: "The Shot Spot",
 					es: "The Shot Spot",

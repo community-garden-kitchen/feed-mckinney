@@ -13,7 +13,7 @@ export const ResourceItem: FC<ResourceProps> = ({
 	language = "en",
 	resource,
 }) => {
-	const addressUrl = `http://maps.apple.com/?daddr=${resource.address}`;
+	// const resource.map = `http://maps.apple.com/?daddr=${resource.address}`;
 	const anchorId = resource.name.en
 		.toLowerCase()
 		.replace(/[^a-z0-9]+/g, "-")
@@ -30,14 +30,25 @@ export const ResourceItem: FC<ResourceProps> = ({
 					dateStyle: "long",
 				})}
 			</div>
-			<div>
-				<a href={addressUrl} class="underline">
-					{resource.address}
-				</a>
-			</div>
+			<div></div>
+
+			{resource?.map?.[language] ? (
+				<div>
+					<a href={resource.map[language]} class="underline">
+						{resource.address}
+					</a>
+				</div>
+			) : null}
 
 			{resource.phone ? <div>{resource.phone}</div> : null}
 
+			{resource.email ? (
+				<div>
+					<a href={`mailto:${resource.email}`} class="underline">
+						{resource.email}
+					</a>
+				</div>
+			) : null}
 			{resource.email ? (
 				<div>
 					<a href={`mailto:${resource.email}`} class="underline">
