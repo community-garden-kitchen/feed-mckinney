@@ -31,6 +31,10 @@ const translations = {
 		en: "Notes",
 		es: "Notas",
 	},
+	opensInNewTab: {
+		en: "(opens in new tab)",
+		es: "(se abre en una pestaña nueva)",
+	},
 	services: {
 		en: "Services",
 		es: "Servicios",

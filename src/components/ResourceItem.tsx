@@ -13,7 +13,6 @@ export const ResourceItem: FC<ResourceProps> = ({
 	language = "en",
 	resource,
 }) => {
-	// const resource.map = `http://maps.apple.com/?daddr=${resource.address}`;
 	const anchorId = resource.name.en
 		.toLowerCase()
 		.replace(/[^a-z0-9]+/g, "-")
@@ -34,8 +33,14 @@ export const ResourceItem: FC<ResourceProps> = ({
 
 			{resource?.map?.[language] ? (
 				<div>
-					<a href={resource.map[language]} class="underline">
+					<a
+						href={resource.map[language]}
+						class="underline"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						{resource.address}
+						<span class="sr-only"> {translations.opensInNewTab[language]}</span>
 					</a>
 				</div>
 			) : null}
@@ -58,8 +63,14 @@ export const ResourceItem: FC<ResourceProps> = ({
 			) : null}
 
 			{resource.website ? (
-				<a href={resource.website} class="underline">
+				<a
+					href={resource.website}
+					class="underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{resource.website}
+					<span class="sr-only"> {translations.opensInNewTab[language]}</span>
 				</a>
 			) : null}
 
