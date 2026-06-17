@@ -362,8 +362,12 @@ const resources: Resource[] = [
 		address: "3101 Coit Road, Plano, TX 75075",
 		email: "cumc@cumc.com",
 		hours: {
-			en: ["Every First Thursday 1:00 PM - 2:30 PM, North Parking Lot"],
-			es: ["Cada primer jueves de 1:00 PM a 2:30 PM, estacionamiento norte"],
+			en: [
+				"Every First Thursday 1:00 PM - 2:30 PM, South Parking Lot. NO DISTRIBUTION IN JULY 2026",
+			],
+			es: [
+				"Cada primer jueves de 1:00 PM a 2:30 PM, estacionamiento sur. NO HABRÁ DISTRIBUCIÓN EN JULIO DE 2026",
+			],
 		},
 		idRequired: false,
 		map: {
@@ -378,7 +382,7 @@ const resources: Resource[] = [
 			en: "The Christ United Methodist Church Corner Pantry is hosting its Mobile Food Bank events on the first Thursday of every month. Partnered with The North Texas Food Bank and Catholic Charities, they will be providing a box of groceries to each car in line (boxes can contain both shelf stable and refrigerated items) for all neighbors facing food insecurity, while supplies last. Distribution will take place from 1 PM - 2:30 PM at Christ United Methodist Church, located at 3101 Coit Rd. Plano, TX, 75075, in the North parking lot. Enter from the Coit Road entrance to join the car line. Volunteers will be present to direct you, and help you fill out any needed paperwork",
 			es: "La Despensa de la Esquina de la Iglesia Christ United Methodist Church está organizando sus eventos del Banco Móvil de Alimentos el primer jueves de cada mes. En asociación con el Banco de Alimentos del Norte de Texas y Caridades Católicas, se proporcionará una caja de comestibles a cada automóvil en la fila (las cajas pueden contener artículos no perecibles y refrigerados) para todos los vecinos que enfrentan necesidad alimentaria, hasta agotar existencias. La distribución se llevará a cabo de 1 PM a 2:30 PM en la Iglesia Christ United Methodist Church, cuya direccion es 3101 Coit Rd. Plano, TX, 75075, en el estacionamiento norte. Ingrese por la entrada de Coit Road para unirse a la línea de autos. Los voluntarios estarán presentes para dirigirlo y ayudarlo a completar cualquier papeleo necesario.",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-06-17T07:00:00-05:00",
 		website: "https://cumc.com/events/corner-pantry/",
 	},
 
