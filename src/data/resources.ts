@@ -58,7 +58,7 @@ const resources: Resource[] = [
 			en: "Free restaurant style meals for your whole family",
 			es: "Comidas estilo restaurante gratuitas para toda tu familia.",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://communitygardenkitchen.org/",
 	},
 	{
@@ -93,7 +93,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://salvationarmyntx.org/north-texas/mckinney",
 	},
 	{
@@ -130,7 +130,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://saminn.org/food-pantry/",
 		additionalResources: [
 			{
@@ -152,7 +152,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "1800 West Hunt Street, McKinney, TX 75069",
@@ -173,7 +173,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "102 West Lamar Street, McKinney, TX 75069",
@@ -200,7 +200,7 @@ const resources: Resource[] = [
 					en: "Mobile food distribution",
 					es: "Distribución móvil de alimentos",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 		],
 	},
@@ -209,13 +209,13 @@ const resources: Resource[] = [
 		hours: {
 			en: [
 				"Tuesday 10:00 AM - 2:00 PM",
-				"Thursday 6:00 PM - 8:00 PM, Closed November 25, 2023",
-				"Saturday 8:00 PM - 12:00 PM",
+				"Thursday 6:00 PM - 8:00 PM, Closed November 26 and December 24",
+				"Saturday 8:00 PM - 12:00 PM, Closed November 28 and December 26",
 			],
 			es: [
 				"Martes 10:00 AM - 2:00 PM",
-				"Jueves 6:00 PM - 8:00 PM, Cerrado el 25 de noviembre de 2023",
-				"Sábado  8:00 PM - 12:00 PM",
+				"Jueves 18:00 - 20:00, cerrado el 26 de noviembre y el 24 de diciembre",
+				"Sábado 20:00 - 00:00, cerrado el 28 de noviembre y el 26 de diciembre",
 			],
 		},
 		idRequired: false,
@@ -232,7 +232,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "http://www.amazinggracepantry.org",
 	},
 	{
@@ -259,7 +259,7 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-05-01T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://stmichaelmckinney.org/st-vincent-de-paul-",
 	},
 	{
@@ -287,21 +287,21 @@ const resources: Resource[] = [
 			en: "Food pantry",
 			es: "Despensa de alimentos",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://25project.org/locations/mco/",
 	},
 	{
 		address: "801 East Main Street, Allen, TX 75002",
 		hours: {
 			en: [
-				"Tuesday 9:00 AM - 6:00 PM (Choice Shopping)",
-				"Thursday 9:00 AM - 6:00 PM (Choice Shopping)",
-				"Friday 12:00 PM - 2:00 PM (Curbside Pickup)",
+				"Tuesday 9:00 AM - 6:00 PM (Choice Shopping), By Appointment Only",
+				"Thursday 9:00 AM - 6:00 PM (Choice Shopping), By Appointment Only",
+				"Friday 12:00 PM - 2:00 PM (Curbside Pickup), By Appointment Only",
 			],
 			es: [
-				"Martes 9:00 AM - 6:00 PM (Compras a elección)",
-				"Jueves 9:00 AM - 6:00 PM (Compras a elección)",
-				"Viernes 12:00 PM - 2:00 PM (Recogida en la acera)",
+				"Martes 9:00 AM - 6:00 PM (Compra por selección), solo con cita previa",
+				"Jueves 9:00 AM - 6:00 PM (Compra por selección), solo con cita previa",
+				"Viernes 12:00 PM - 2:00 PM (Recogida en la acera), solo con cita previa",
 			],
 		},
 		idRequired: true,
@@ -322,7 +322,7 @@ const resources: Resource[] = [
 			en: "Food pantry and financial assistance",
 			es: "Despensa de alimentos y asistencia financiera",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://www.acocares.org/need-help/",
 	},
 	{
@@ -355,7 +355,7 @@ const resources: Resource[] = [
 			en: "Provides diapers, wipes, period products, and occasionally formula to families",
 			es: "Proporciona pañales, toallitas húmedas, productos para la menstruación y, ocasionalmente, fórmula a las familias.",
 		},
-		updated: "2026-05-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://babybootiesdiaperbank.org/get-help/",
 	},
 	{
@@ -382,10 +382,9 @@ const resources: Resource[] = [
 			en: "The Christ United Methodist Church Corner Pantry is hosting its Mobile Food Bank events on the first Thursday of every month. Partnered with The North Texas Food Bank and Catholic Charities, they will be providing a box of groceries to each car in line (boxes can contain both shelf stable and refrigerated items) for all neighbors facing food insecurity, while supplies last. Distribution will take place from 1 PM - 2:30 PM at Christ United Methodist Church, located at 3101 Coit Rd. Plano, TX, 75075, in the North parking lot. Enter from the Coit Road entrance to join the car line. Volunteers will be present to direct you, and help you fill out any needed paperwork",
 			es: "La Despensa de la Esquina de la Iglesia Christ United Methodist Church está organizando sus eventos del Banco Móvil de Alimentos el primer jueves de cada mes. En asociación con el Banco de Alimentos del Norte de Texas y Caridades Católicas, se proporcionará una caja de comestibles a cada automóvil en la fila (las cajas pueden contener artículos no perecibles y refrigerados) para todos los vecinos que enfrentan necesidad alimentaria, hasta agotar existencias. La distribución se llevará a cabo de 1 PM a 2:30 PM en la Iglesia Christ United Methodist Church, cuya direccion es 3101 Coit Rd. Plano, TX, 75075, en el estacionamiento norte. Ingrese por la entrada de Coit Road para unirse a la línea de autos. Los voluntarios estarán presentes para dirigirlo y ayudarlo a completar cualquier papeleo necesario.",
 		},
-		updated: "2026-06-17T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://cumc.com/events/corner-pantry/",
 	},
-
 	{
 		address: "Varies by location",
 		hours: {
@@ -397,11 +396,15 @@ const resources: Resource[] = [
 			en: "McKinney Little Free Pantry",
 			es: "Pequeña despensa gratuita de McKinney",
 		},
+		map: {
+			en: "n/a",
+			es: "n/a",
+		},
 		services: {
 			en: "Provides provide non-perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day, 7 days a week with no rules or regulations as to who receives the assistance.",
 			es: "Proporciona alimentos no perecederos, artículos de tocador y artículos de primera necesidad con respeto, amor y dignidad tanto para los compradores como para los donantes. Esta asistencia está disponible las 24 horas del día, los 7 días de la semana, sin reglas ni regulaciones sobre quién recibe la asistencia.",
 		},
-		updated: "2026-04-29T07:00:00-05:00",
+		updated: "2026-07-08T07:00:00-05:00",
 		website: "https://www.mckinneylfp.org",
 		additionalResources: [
 			{
@@ -419,7 +422,7 @@ const resources: Resource[] = [
 					en: "Private Residence",
 					es: "Residencia Privada",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "604 Rike Street, McKinney, TX 75069",
@@ -436,7 +439,7 @@ const resources: Resource[] = [
 					en: "Church of the Nazarene",
 					es: "Iglesia del Nazareno Renovación",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "400 North College Street, McKinney, TX 75069",
@@ -453,7 +456,7 @@ const resources: Resource[] = [
 					en: "St Peter’s Episcopal Church Parking Lot",
 					es: "St Peter’s Episcopal Church Parking Lot",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "5871 Virginia Parkway, McKinney, TX 75071",
@@ -470,7 +473,7 @@ const resources: Resource[] = [
 					en: "Behind Trinity Presbyterian Church",
 					es: "Behind Trinity Presbyterian Church",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "614 Blue Ridge Street, McKinney, TX 75072",
@@ -487,7 +490,7 @@ const resources: Resource[] = [
 					en: "Private Residence",
 					es: "Residencia Privada",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "404 Lincoln Street, McKinney, TX 75069",
@@ -504,7 +507,7 @@ const resources: Resource[] = [
 					en: "Holy Family Episcopal Church",
 					es: "Iglesia Episcopal de la Santa Natividad",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "110 St. Gabriel Way, McKinney, TX 75071",
@@ -521,7 +524,7 @@ const resources: Resource[] = [
 					en: "St. Gabriel the Archangel Church",
 					es: "St. Gabriel the Archangel Church",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "6400 McKinney Ranch Parkway, McKinney, TX 75070",
@@ -538,7 +541,7 @@ const resources: Resource[] = [
 					en: "St. Andrew’s Episcopal Church",
 					es: "St. Andrew’s Episcopal Church",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "2000 West White Avenue, McKinney, TX 75069",
@@ -555,7 +558,7 @@ const resources: Resource[] = [
 					en: "First Presbyterian Church",
 					es: "First Presbyterian Church",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "1811 Ridge Road, McKinney, TX 75071",
@@ -572,7 +575,7 @@ const resources: Resource[] = [
 					en: "Southeast backside of Masonic Temple",
 					es: "SE backside of Masonic Temple",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 			{
 				address: "1827 West Louisiana Street, McKinney, TX 75069",
@@ -593,7 +596,7 @@ const resources: Resource[] = [
 					en: "**Pet Pantry Only**",
 					es: "**Pet Pantry Only**",
 				},
-				updated: "2026-04-29T07:00:00-05:00",
+				updated: "2026-07-08T07:00:00-05:00",
 			},
 		],
 	},
